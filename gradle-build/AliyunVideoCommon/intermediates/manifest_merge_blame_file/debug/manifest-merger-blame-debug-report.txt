@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aliyun.svideo.common" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="15"
+6-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="26" />
+7-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml
+8    <!-- 网络/网络状态 -->
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:5:5-79
+9-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:5:22-76
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:6:5-67
+10-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:6:22-64
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:7:5-75
+11-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:7:22-73
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+12-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:8:5-75
+12-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:8:22-73
+13    <!-- Sdcard读写权限 -->
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:10:5-81
+14-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:11:5-80
+15-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:11:22-77
+16    <!-- 摄像头录音权限 -->
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:13:5-65
+17-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:13:22-62
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:14:5-71
+18-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:14:22-68
+19    <!-- 电话状态权限 -->
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:16:5-75
+20-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:16:22-72
+21    <!-- 蓝牙权限 -->
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:18:5-68
+22-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml:18:22-65
+23
+24</manifest>

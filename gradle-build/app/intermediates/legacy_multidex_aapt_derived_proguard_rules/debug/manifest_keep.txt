@@ -1,0 +1,2 @@
+# Referenced at C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\app\intermediates\merged_manifests\debug\AndroidManifest.xml:37
+-keep class com.aliyun.alivcsolution.MutiApplication { <init>(); }

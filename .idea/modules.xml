@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aliyunplayer/AlivcPlayer/AlivcPlayer.iml" filepath="$PROJECT_DIR$/Aliyunplayer/AlivcPlayer/AlivcPlayer.iml" group="ApsaraVideoPlayer/Aliyunplayer/AlivcPlayer" />
+      <module fileurl="file://$PROJECT_DIR$/AliyunVideoCommon/AliyunVideoCommon.iml" filepath="$PROJECT_DIR$/AliyunVideoCommon/AliyunVideoCommon.iml" group="ApsaraVideoPlayer/AliyunVideoCommon" />
+      <module fileurl="file://$PROJECT_DIR$/Aliyunplayer/Aliyunplayer.iml" filepath="$PROJECT_DIR$/Aliyunplayer/Aliyunplayer.iml" group="ApsaraVideoPlayer/Aliyunplayer" />
+      <module fileurl="file://$PROJECT_DIR$/ApsaraVideoPlayer.iml" filepath="$PROJECT_DIR$/ApsaraVideoPlayer.iml" group="ApsaraVideoPlayer" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ApsaraVideoPlayer/app" />
+      <module fileurl="file://$PROJECT_DIR$/Aliyunplayer/player_demo/player_demo.iml" filepath="$PROJECT_DIR$/Aliyunplayer/player_demo/player_demo.iml" group="ApsaraVideoPlayer/Aliyunplayer/player_demo" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" group="ApsaraVideoPlayer/zxing" />
+    </modules>
+  </component>
+</project>
