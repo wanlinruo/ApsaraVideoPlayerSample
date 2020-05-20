@@ -53,7 +53,7 @@ import com.aliyun.vodplayerview.listener.OnStoppedListener;
 import com.aliyun.vodplayerview.listener.RefreshStsCallback;
 import com.aliyun.vodplayerview.playlist.AlivcPlayListAdapter;
 import com.aliyun.vodplayerview.playlist.AlivcPlayListManager;
-import com.aliyun.vodplayerview.playlist.AlivcVideoInfo;
+import com.aliyun.vodplayerview.playlist.CusAlivcVideoInfo;
 import com.aliyun.vodplayerview.utils.Common;
 import com.aliyun.vodplayerview.utils.FixedToastUtils;
 import com.aliyun.vodplayerview.utils.ScreenUtils;
@@ -129,7 +129,7 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
     private AliyunDownloadManager downloadManager;
     private AlivcPlayListAdapter alivcPlayListAdapter;
 
-    private ArrayList<AlivcVideoInfo.DataBean.VideoListBean> alivcVideoInfos;
+    private ArrayList<CusAlivcVideoInfo> alivcVideoInfos;
     private ErrorInfo currentError = ErrorInfo.Normal;
     //判断是否在后台
     private boolean mIsInBackground = false;
@@ -307,7 +307,7 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
                 PlayParameter.PLAY_PARAM_AK_SECRE,
                 PlayParameter.PLAY_PARAM_SCU_TOKEN, new AlivcPlayListManager.PlayListListener() {
                     @Override
-                    public void onPlayList(int code, final ArrayList<AlivcVideoInfo.DataBean.VideoListBean> videos) {
+                    public void onPlayList(int code, final ArrayList<CusAlivcVideoInfo> videos) {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
@@ -317,7 +317,7 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
                                     alivcPlayListAdapter.notifyDataSetChanged();
 
                                     // 请求sts成功后, 加载播放资源,和视频列表
-                                    AlivcVideoInfo.DataBean.VideoListBean video = alivcVideoInfos.get(0);
+                                    CusAlivcVideoInfo video = alivcVideoInfos.get(0);
                                     PlayParameter.PLAY_PARAM_VID = video.getVideoId();
                                     //url/vid设置界面播放后,
                                     PlayParameter.PLAY_PARAM_TYPE = "vidsts";
@@ -340,7 +340,7 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
         recyclerView = findViewById(R.id.video_list);
         llVideoList = findViewById(R.id.ll_video_list);
         tvStartSetting = findViewById(R.id.tv_start_player);
-        alivcVideoInfos = new ArrayList<AlivcVideoInfo.DataBean.VideoListBean>();
+        alivcVideoInfos = new ArrayList<CusAlivcVideoInfo>();
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         alivcPlayListAdapter = new AlivcPlayListAdapter(this, alivcVideoInfos);
 
@@ -414,7 +414,7 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
 
         currentVideoPosition = position;
 
-        AlivcVideoInfo.DataBean.VideoListBean video = alivcVideoInfos.get(position);
+        CusAlivcVideoInfo video = alivcVideoInfos.get(position);
 
         changePlayVidSource(video);
     }
@@ -434,7 +434,7 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
      *
      * @param video 要切换的资源
      */
-    private void changePlayVidSource(AlivcVideoInfo.DataBean.VideoListBean video) {
+    private void changePlayVidSource(CusAlivcVideoInfo video) {
         mDownloadInPrepare = true;
         VidSts vidSts = new VidSts();
         PlayParameter.PLAY_PARAM_VID = video.getVideoId();
@@ -713,7 +713,7 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
         }
 
         if (alivcVideoInfos.size() > 0) {
-            AlivcVideoInfo.DataBean.VideoListBean video = alivcVideoInfos.get(currentVideoPosition);
+            CusAlivcVideoInfo video = alivcVideoInfos.get(currentVideoPosition);
             if (video != null) {
                 changePlayVidSource(video);
             }
@@ -1494,7 +1494,7 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
             if (activity != null) {
                 switch (msg.what) {
                     case DOWNLOAD_ERROR:
-                        ToastUtils.show(activity,msg.getData().getString(DOWNLOAD_ERROR_KEY));
+                        ToastUtils.show(activity, msg.getData().getString(DOWNLOAD_ERROR_KEY));
                         Log.d("donwload", msg.getData().getString(DOWNLOAD_ERROR_KEY));
                         break;
                     default:
@@ -2032,7 +2032,8 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
             }
         }
     }
-    private static class MyOnSeiDataListener implements IPlayer.OnSeiDataListener{
+
+    private static class MyOnSeiDataListener implements IPlayer.OnSeiDataListener {
         private WeakReference<AliyunPlayerSkinActivity> weakReference;
 
         public MyOnSeiDataListener(AliyunPlayerSkinActivity activity) {
@@ -2044,12 +2045,13 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
             AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
             String seiMessage = new String(bytes);
             if (aliyunPlayerSkinActivity != null) {
-                String log = new SimpleDateFormat("HH:mm:ss.SS").format(new Date())+"SEI:type:"+i+",content:"+seiMessage+"\n";
+                String log = new SimpleDateFormat("HH:mm:ss.SS").format(new Date()) + "SEI:type:" + i + ",content:" + seiMessage + "\n";
                 aliyunPlayerSkinActivity.tvLogs.append(log);
             }
-            Log.e("SEI:", "type:"+i+",content:"+seiMessage);
+            Log.e("SEI:", "type:" + i + ",content:" + seiMessage);
         }
     }
+
     private void onError(com.aliyun.player.bean.ErrorInfo errorInfo) {
         //鉴权过期
         if (errorInfo.getCode().getValue() == ErrorCode.ERROR_SERVER_POP_UNKNOWN.getValue()) {

@@ -20,30 +20,31 @@ import java.util.ArrayList;
 
 /**
  * @author Mulberry
- *         create on 2018/5/17.
+ * create on 2018/5/17.
  */
 
 public class AlivcPlayListAdapter extends RecyclerView.Adapter<AlivcPlayListAdapter.ViewHolder> {
-    ArrayList<AlivcVideoInfo.DataBean.VideoListBean> videoLists;
+    ArrayList<CusAlivcVideoInfo> videoLists;
     WeakReference<Context> context;
 
-    public AlivcPlayListAdapter(Context context, ArrayList<AlivcVideoInfo.DataBean.VideoListBean> videoLists) {
+    public AlivcPlayListAdapter(Context context, ArrayList<CusAlivcVideoInfo> videoLists) {
         this.context = new WeakReference<Context>(context);
         this.videoLists = videoLists;
 
     }
 
-    public  class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView coverImage;
         TextView title;
         TextView tvVideoDuration;
         LinearLayout alivcVideoInfoItemLayout;
+
         public ViewHolder(View itemView) {
             super(itemView);
-            alivcVideoInfoItemLayout = (LinearLayout)itemView.findViewById(R.id.alivc_video_info_item_layout);
-            coverImage = (ImageView)itemView.findViewById(R.id.iv_video_cover);
-            title = (TextView)itemView.findViewById(R.id.tv_video_title);
-            tvVideoDuration = (TextView)itemView.findViewById(R.id.tv_video_duration);
+            alivcVideoInfoItemLayout = (LinearLayout) itemView.findViewById(R.id.alivc_video_info_item_layout);
+            coverImage = (ImageView) itemView.findViewById(R.id.iv_video_cover);
+            title = (TextView) itemView.findViewById(R.id.tv_video_title);
+            tvVideoDuration = (TextView) itemView.findViewById(R.id.tv_video_duration);
         }
     }
 
@@ -57,16 +58,16 @@ public class AlivcPlayListAdapter extends RecyclerView.Adapter<AlivcPlayListAdap
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
         if (videoLists.size() > 0) {
-            AlivcVideoInfo.DataBean.VideoListBean video = videoLists.get(position);
+            CusAlivcVideoInfo video = videoLists.get(position);
             if (video != null) {
                 holder.title.setText(video.getTitle());
-                double dTime = Double.parseDouble(video.getDuration().toString());
+                double dTime = Double.parseDouble(String.valueOf(video.getDuration()));
                 holder.tvVideoDuration.setText(Formatter.double2Date(dTime));
 
                 new ImageLoaderImpl().loadImage(this.context.get(), video.getCoverUrl(), new ImageLoaderOptions.Builder()
-                                                .crossFade()
-                                                .centerCrop().build()
-                                               ).into(holder.coverImage);
+                        .crossFade()
+                        .centerCrop().build()
+                ).into(holder.coverImage);
 
             }
         }
@@ -88,7 +89,7 @@ public class AlivcPlayListAdapter extends RecyclerView.Adapter<AlivcPlayListAdap
     private OnVideoListItemClick onVideoListItemClick;
 
     public void setOnVideoListItemClick(
-        OnVideoListItemClick onVideoListItemClick) {
+            OnVideoListItemClick onVideoListItemClick) {
         this.onVideoListItemClick = onVideoListItemClick;
     }
 

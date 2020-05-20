@@ -17,8 +17,20 @@ public class AliyunVodHttpCommon {
      * sts host
      */
     private static String VOD_STS_DOMAIN = "http://47.100.18.52:8081/demo/";
-    private static String VOD_DOMAIN = "http://47.100.18.52:8081/demo/getVideoList";
-    public static final String  HTTP_METHOD = "GET";
+
+    /**
+     * auth host
+     */
+    private static String VOD_AUTH_DOMAIN = "http://192.168.97.6:9005/";
+
+
+    private static String API_VOD_STS_LIST = VOD_STS_DOMAIN + "getVideoList";
+
+
+    private static String API_VOD_AUTH_LIST = VOD_AUTH_DOMAIN + "content/vodInfo/infoByUid";
+
+
+    public static final String HTTP_METHOD = "GET";
 
     private static AliyunVodHttpCommon instance = null;
 
@@ -49,7 +61,7 @@ public class AliyunVodHttpCommon {
         public static final String NORMAL = "Normal";
     }
 
-    public  static class ImageType {
+    public static class ImageType {
         public static final String IMAGETYPE_COVER = "cover";
         public static final String IMAGETYPE_WATERMARK = "watermark";
     }
@@ -94,15 +106,19 @@ public class AliyunVodHttpCommon {
         return signatureNonce;
     }
 
-    public String getVodDomain() {
-        return VOD_DOMAIN;
+    public String getVodStsListApi() {
+        return API_VOD_STS_LIST;
     }
 
-    public void setVodDomain(String vodDomain) {
-        if (TextUtils.isEmpty(vodDomain)) {
-            return ;
+    public String getVodAuthListAPI(){
+        return API_VOD_AUTH_LIST;
+    }
+
+    public void setVodStsListApi(String vodStsListApi) {
+        if (TextUtils.isEmpty(vodStsListApi)) {
+            return;
         }
-        VOD_DOMAIN = vodDomain;
+        API_VOD_STS_LIST = vodStsListApi;
     }
 
     public String getVodStsDomain() {
@@ -111,9 +127,20 @@ public class AliyunVodHttpCommon {
 
     public void setVodStsDomain(String vodStsDomain) {
         if (TextUtils.isEmpty(vodStsDomain)) {
-            return ;
+            return;
         }
         VOD_STS_DOMAIN = vodStsDomain;
+    }
+
+    public String getVodAuthDomain() {
+        return VOD_AUTH_DOMAIN;
+    }
+
+    public void setVodAuthDomain(String vodAuthDomain) {
+        if (TextUtils.isEmpty(vodAuthDomain)) {
+            return;
+        }
+        VOD_AUTH_DOMAIN = vodAuthDomain;
     }
 
 }

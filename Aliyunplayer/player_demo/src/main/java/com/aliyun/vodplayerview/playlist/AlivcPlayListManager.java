@@ -2,7 +2,6 @@ package com.aliyun.vodplayerview.playlist;
 
 
 import com.aliyun.vodplayerview.playlist.vod.core.AliyunVodHttpCommon;
-import com.aliyun.vodplayerview.playlist.vod.core.AliyunVodKey;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -35,7 +34,7 @@ public class AlivcPlayListManager {
     }
 
     public interface PlayListListener {
-        void onPlayList(int code, ArrayList<AlivcVideoInfo.DataBean.VideoListBean> videos);
+        void onPlayList(int code, ArrayList<CusAlivcVideoInfo> videos);
     }
 
     public void fetchPlayList(String accessKeyId, String accessKeySecret, String securityToken, PlayListListener playListListener) {
@@ -45,11 +44,12 @@ public class AlivcPlayListManager {
     private void fetchVideoList(String accessKeyId, String accessKeySecret, String securityToken, final PlayListListener playListListener) {
 
         OkHttpClient client = new OkHttpClient.Builder()
-        .build();
-        String url = AliyunVodHttpCommon.getInstance().getVodDomain() + "?" + AliyunVodKey.KEY_NEW_VOD_CATEID + "=" + AliyunVodHttpCommon.Action.GET_VIDEO_CATE_ID;
+                .build();
+//        String url = AliyunVodHttpCommon.getInstance().getVodStsListApi() + "?" + AliyunVodKey.KEY_NEW_VOD_CATEID + "=" + AliyunVodHttpCommon.Action.GET_VIDEO_CATE_ID;
+        String url = AliyunVodHttpCommon.getInstance().getVodAuthListAPI();
         final Request request = new Request.Builder()
-        .url(url)
-        .build();
+                .url(url)
+                .build();
 
         client.newCall(request).enqueue(new Callback() {
 
@@ -64,10 +64,18 @@ public class AlivcPlayListManager {
 
                 JsonObject jsonObject = new JsonParser().parse(body).getAsJsonObject();
 
-                AlivcVideoInfo alivcVideoInfo = new Gson().fromJson(body, AlivcVideoInfo.class);
-                AlivcVideoInfo.DataBean dataBean = alivcVideoInfo.getData();
-                if (dataBean != null){
-                    ArrayList<AlivcVideoInfo.DataBean.VideoListBean> videoList = (ArrayList<AlivcVideoInfo.DataBean.VideoListBean>) dataBean.getVideoList();
+//                AlivcVideoInfo alivcVideoInfo = new Gson().fromJson(body, AlivcVideoInfo.class);
+//                AlivcVideoInfo.DataBean dataBean = alivcVideoInfo.getData();
+//                if (dataBean != null){
+//                    ArrayList<AlivcVideoInfo.DataBean.VideoListBean> videoList = (ArrayList<AlivcVideoInfo.DataBean.VideoListBean>) dataBean.getVideoList();
+//                    if (videoList != null) {
+//                        playListListener.onPlayList(response.code(), videoList);
+//                    }
+//                }
+
+                CusAlivcVideoInfoList cusAlivcVideoInfoList = new Gson().fromJson(body, CusAlivcVideoInfoList.class);
+                if (cusAlivcVideoInfoList != null) {
+                    ArrayList<CusAlivcVideoInfo> videoList = cusAlivcVideoInfoList.getData();
                     if (videoList != null) {
                         playListListener.onPlayList(response.code(), videoList);
                     }
@@ -86,35 +94,5 @@ public class AlivcPlayListManager {
 
     public static Object fromJson(String jsonString, Type type) {
         return new Gson().fromJson(jsonString, type);
-    }
-
-    public class AlivcVideoList {
-        private String requestId;
-        private AlivcVideoInfo[] videoList;
-        private int totall;
-
-        public String getRequestId() {
-            return requestId;
-        }
-
-        public void setRequestId(String requestId) {
-            this.requestId = requestId;
-        }
-
-        public AlivcVideoInfo[] getVideoList() {
-            return videoList;
-        }
-
-        public void setVideoList(AlivcVideoInfo[] videoList) {
-            this.videoList = videoList;
-        }
-
-        public int getTotall() {
-            return totall;
-        }
-
-        public void setTotall(int totall) {
-            this.totall = totall;
-        }
     }
 }

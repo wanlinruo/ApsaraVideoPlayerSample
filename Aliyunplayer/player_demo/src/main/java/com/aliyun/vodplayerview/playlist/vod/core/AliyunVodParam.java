@@ -75,7 +75,7 @@ public class AliyunVodParam {
      * @throws Exception
      */
     public static String generateOpenAPIURL(Map<String, String> publicParams, Map<String, String> privateParams,String accessKeySecret) {
-        return  generateURL(AliyunVodHttpCommon.getInstance().getVodDomain(), AliyunVodHttpCommon.HTTP_METHOD, publicParams, privateParams,accessKeySecret);
+        return  generateURL(AliyunVodHttpCommon.getInstance().getVodStsListApi(), AliyunVodHttpCommon.HTTP_METHOD, publicParams, privateParams,accessKeySecret);
     }
 
     /**
