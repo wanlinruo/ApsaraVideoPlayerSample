@@ -1046,8 +1046,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id akId
-id akSecret
 id alertTitle
 id alivc_back
 id alivc_current_download
@@ -1122,7 +1120,11 @@ id encode_failed
 id encode_succeeded
 id end
 id end_padder
+id et_cover_path
+id et_play_auth
 id et_play_url
+id et_title
+id et_vid
 id expand_activities_button
 id expanded_menu
 id fl
@@ -1246,7 +1248,6 @@ id screen_cost_ll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scuToken
 id search_badge
 id search_bar
 id search_book_contents_failed
@@ -1351,7 +1352,6 @@ id two
 id uniform
 id up
 id useLogo
-id vid
 id video_list
 id video_view
 id viewfinder_content
@@ -1424,7 +1424,7 @@ layout alivc_layout_empty_view
 layout alivc_marquee_view
 layout alivc_play_list_item
 layout alivc_player_layout_skin
-layout alivc_player_view_vid_sts
+layout alivc_player_view_vid_auth
 layout alivc_trailers_view_layout
 layout alivc_view_adv_picture
 layout alivc_view_control
@@ -1644,9 +1644,9 @@ string edit
 string encode_qrcode
 string encrypted
 string encrypted_no
-string inout_accesskeyid_here
-string input_accesskeysecret_here
-string input_securitytoken_here
+string inout_play_auth_here
+string input_cover_path_here
+string input_title_here
 string input_url_here
 string input_vid_here
 string kickbt
@@ -1703,7 +1703,7 @@ string play_url_null_toast
 string player_log
 string prepare_download_item
 string qrcodetext
-string request_vidsts_fail
+string request_vid_auth_fail
 string resetstr
 string search_menu_title
 string solution_apsarav

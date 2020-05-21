@@ -4,6 +4,7 @@ import android.text.TextUtils;
 
 import com.aliyun.player.bean.ErrorCode;
 import com.aliyun.player.nativeclass.TrackInfo;
+import com.aliyun.player.source.VidAuth;
 import com.aliyun.player.source.VidSts;
 import com.aliyun.utils.JsonUtil;
 import com.aliyun.utils.VcPlayerLog;
@@ -19,6 +20,7 @@ import java.util.List;
 
 /**
  * 下载信息封装类
+ *
  * @author hanyu
  */
 public class AliyunDownloadMediaInfo {
@@ -38,6 +40,7 @@ public class AliyunDownloadMediaInfo {
     private int isEncripted = 0;
     private TrackInfo mTrackInfo;
     private VidSts mVidSts;
+    private VidAuth mVidAuth;
     private ErrorCode errorCode;
     private String errorMsg;
     private int mFileHandleProgress = 0;
@@ -177,6 +180,14 @@ public class AliyunDownloadMediaInfo {
 
     public void setVidSts(VidSts mVidSts) {
         this.mVidSts = mVidSts;
+    }
+
+    public VidAuth getVidAuth() {
+        return mVidAuth;
+    }
+
+    public void setVidAuth(VidAuth mVidAuth) {
+        this.mVidAuth = mVidAuth;
     }
 
     public ErrorCode getErrorCode() {

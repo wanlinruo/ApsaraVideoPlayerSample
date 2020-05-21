@@ -430,7 +430,7 @@ public class ControlView extends RelativeLayout implements ViewAction, ITheme {
     public void updateDownloadBtn() {
         if (mAliyunScreenMode == AliyunScreenMode.Full || "localSource".equals(PlayParameter.PLAY_PARAM_TYPE)) {
             mTitleDownload.setVisibility(GONE);
-        } else if (mAliyunScreenMode == AliyunScreenMode.Small || "vidsts".equals(PlayParameter.PLAY_PARAM_TYPE)) {
+        } else if (mAliyunScreenMode == AliyunScreenMode.Small || "vidAuth".equals(PlayParameter.PLAY_PARAM_TYPE)) {
             mTitleDownload.setVisibility(VISIBLE);
         }
     }

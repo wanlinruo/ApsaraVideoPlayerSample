@@ -12,30 +12,19 @@ public class PlayParameter {
      * vidsts: vid类型
      * localSource: url类型
      */
-    public static String PLAY_PARAM_TYPE = "vidsts";
+    public static String PLAY_PARAM_TYPE = "vidAuth";
 
-    private static final String PLAY_PARAM_VID_DEFAULT = "9fb028c29acb421cb634c77cf4ebe078";
     /**
-     * vid, 初始为: 9fb028c29acb421cb634c77cf4ebe078
+     * vid初始值
+     */
+    public static final String PLAY_PARAM_VID_DEFAULT = "9caa942ee6fe489ca8ac4ff01ae73dd3";
+
+    /**
+     * vid
      */
     public static String PLAY_PARAM_VID = "";
 
     public static String PLAY_PARAM_REGION = "cn-shanghai";
-
-    /**
-     * akId
-     */
-    public static String PLAY_PARAM_AK_ID = "";
-
-    /**
-     * akSecre
-     */
-    public static String PLAY_PARAM_AK_SECRE = "";
-
-    /**
-     * scuToken
-     */
-    public static String PLAY_PARAM_SCU_TOKEN = "";
 
     /**
      * url类型的播放地址, 初始为:http://player.alicdn.com/video/aliyunmedia.mp4
@@ -46,5 +35,16 @@ public class PlayParameter {
     /**
      * 播放凭证VidAuth
      */
-    public static String PLAY_PARAM_TYPE_VID_AUTH = "vidAuth";
+    public static String PLAY_PARAM_TYPE_AUTH_PLAY_AUTH = "playAuth";
+
+    /**
+     * 标题
+     */
+    public static String PLAY_PARAM_TYPE_AUTH_TITLE = "title";
+
+    /**
+     * 封面
+     */
+    public static String PLAY_PARAM_TYPE_AUTH_COVER_PATH = "coverPath";
+
 }

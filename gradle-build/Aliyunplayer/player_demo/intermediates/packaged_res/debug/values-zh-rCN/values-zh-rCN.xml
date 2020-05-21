@@ -104,9 +104,9 @@
     <string name="download_wait">等待中</string>
     <string name="encrypted">加密</string>
     <string name="encrypted_no">未加密</string>
-    <string name="inout_accesskeyid_here">这里输入临时accesskeyId</string>
-    <string name="input_accesskeysecret_here">这里输入临时accesskeySecret</string>
-    <string name="input_securitytoken_here">这里输入临时securityToken</string>
+    <string name="inout_play_auth_here">这里输入临时PlayAuth</string>
+    <string name="input_cover_path_here">这里输入临时封面</string>
+    <string name="input_title_here">这里输入临时标题</string>
     <string name="input_url_here">请输入URL </string>
     <string name="input_vid_here">这里输入视频vid</string>
     <string name="kickbt">我知道了</string>
@@ -130,7 +130,7 @@
     <string name="play_url_null_toast">播放Url不能为空</string>
     <string name="player_log">播放器日志：</string>
     <string name="prepare_download_item">准备可下载项</string>
-    <string name="request_vidsts_fail">通过网络请求vidsts失败</string>
+    <string name="request_vid_auth_fail">通过网络请求vidAuth失败</string>
     <string name="start_player_setting">vid或url设置</string>
     <string name="start_player_ui">开启播放界面</string>
     <string name="toast_play_compleion">播放结束</string>

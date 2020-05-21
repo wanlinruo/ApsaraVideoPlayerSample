@@ -12,12 +12,14 @@ import com.aliyun.player.bean.ErrorCode;
 import com.aliyun.player.bean.ErrorInfo;
 import com.aliyun.player.nativeclass.MediaInfo;
 import com.aliyun.player.nativeclass.TrackInfo;
+import com.aliyun.player.source.VidAuth;
 import com.aliyun.player.source.VidSts;
 import com.aliyun.svideo.common.utils.ThreadUtils;
 import com.aliyun.vodplayer.R;
 import com.aliyun.vodplayerview.constants.PlayParameter;
+import com.aliyun.vodplayerview.listener.RefreshAuthCallback;
 import com.aliyun.vodplayerview.listener.RefreshStsCallback;
-import com.aliyun.vodplayerview.utils.VidStsUtil;
+import com.aliyun.vodplayerview.utils.VidAuthUtil;
 import com.aliyun.vodplayerview.utils.database.DatabaseManager;
 import com.aliyun.vodplayerview.utils.database.LoadDbDatasListener;
 
@@ -514,8 +516,8 @@ public class AliyunDownloadManager {
     /**
      * 准备下载项目
      */
-    public void prepareDownload(final VidSts vidSts) {
-        if (vidSts == null || TextUtils.isEmpty(vidSts.getVid())) {
+    public void prepareDownload(final VidAuth vidAuth) {
+        if (vidAuth == null || TextUtils.isEmpty(vidAuth.getVid())) {
             return;
         }
         final List<AliyunDownloadMediaInfo> downloadMediaInfos = new ArrayList<>();
@@ -530,7 +532,7 @@ public class AliyunDownloadManager {
                     if (type == TrackInfo.Type.TYPE_VOD) {
 //                        //一个JniDownloader 对应多个 AliyunDownloaderMediaInfo(同一Vid,不同清晰度)
                         final AliyunDownloadMediaInfo downloadMediaInfo = new AliyunDownloadMediaInfo();
-                        downloadMediaInfo.setVid(vidSts.getVid());
+                        downloadMediaInfo.setVid(vidAuth.getVid());
                         downloadMediaInfo.setQuality(trackInfo.getVodDefinition());
                         downloadMediaInfo.setTitle(mediaInfo.getTitle());
                         downloadMediaInfo.setCoverUrl(mediaInfo.getCoverUrl());
@@ -540,7 +542,7 @@ public class AliyunDownloadManager {
                         downloadMediaInfo.setFormat(trackInfo.getVodFormat());
                         downloadMediaInfo.setSize(trackInfo.getVodFileSize());
                         downloadMediaInfo.setStatus(AliyunDownloadMediaInfo.Status.Prepare);
-                        downloadMediaInfo.setVidSts(vidSts);
+                        downloadMediaInfo.setVidAuth(vidAuth);
                         downloadMediaInfos.add(downloadMediaInfo);
 
                         AliMediaDownloader itemJniDownloader = AliDownloaderFactory.create(mContext);
@@ -559,20 +561,20 @@ public class AliyunDownloadManager {
             public void onError(ErrorInfo errorInfo) {
                 if (innerDownloadInfoListener != null) {
                     AliyunDownloadMediaInfo mediaInfo = new AliyunDownloadMediaInfo();
-                    mediaInfo.setVidSts(vidSts);
+                    mediaInfo.setVidAuth(vidAuth);
                     innerDownloadInfoListener.onError(mediaInfo, errorInfo.getCode(), errorInfo.getMsg(), null);
                 }
             }
         });
 
-        jniDownloader.prepare(vidSts);
+        jniDownloader.prepare(vidAuth);
     }
 
     /**
      * 准备下载项(指定清晰度)
      */
     public void prepareDownloadByQuality(final AliyunDownloadMediaInfo downloadMediaInfo, final int intentState) {
-        if (downloadMediaInfo == null || downloadMediaInfo.getVidSts() == null) {
+        if (downloadMediaInfo == null || downloadMediaInfo.getVidAuth() == null) {
             return;
         }
         final List<AliyunDownloadMediaInfo> downloadMediaInfos = new ArrayList<>();
@@ -649,7 +651,7 @@ public class AliyunDownloadManager {
             }
         });
 
-        jniDownloader.prepare(downloadMediaInfo.getVidSts());
+        jniDownloader.prepare(downloadMediaInfo.getVidAuth());
     }
 
     /**
@@ -677,9 +679,9 @@ public class AliyunDownloadManager {
             innerDownloadInfoListener.onStart(downloadMediaInfo);
         }
 
-        //如果没有sts，则是恢复数据的操作，需要重新请求sts
-        if (downloadMediaInfo.getVidSts() == null) {
-            getVidSts(downloadMediaInfo, INTENT_STATE_START);
+        //如果没有Auth，则是恢复数据的操作，需要重新请求sts
+        if (downloadMediaInfo.getVidAuth() == null) {
+            getVidAuth(downloadMediaInfo, INTENT_STATE_START);
         } else {
             //直接开始下载
             //判断磁盘空间是否足够
@@ -743,7 +745,7 @@ public class AliyunDownloadManager {
         if (downloadMediaInfos == null || downloadMediaInfos.size() == 0 || downloadInfos == null) {
             return;
         }
-        for (AliyunDownloadMediaInfo downloadMediaInfo : downloadMediaInfos){
+        for (AliyunDownloadMediaInfo downloadMediaInfo : downloadMediaInfos) {
             if (downloadMediaInfo.getStatus() == AliyunDownloadMediaInfo.Status.Start ||
                     downloadMediaInfo.getStatus() == AliyunDownloadMediaInfo.Status.Wait) {
                 AliMediaDownloader jniDownloader = downloadInfos.get(downloadMediaInfo);
@@ -818,18 +820,18 @@ public class AliyunDownloadManager {
     /**
      * 获取sts信息
      */
-    private void getVidSts(final AliyunDownloadMediaInfo downloadMediaInfo, final int intentState) {
-        VidStsUtil.getVidSts(PlayParameter.PLAY_PARAM_VID, new VidStsUtil.OnStsResultListener() {
+    private void getVidAuth(final AliyunDownloadMediaInfo downloadMediaInfo, final int intentState) {
+        VidAuthUtil.getVidAuth(PlayParameter.PLAY_PARAM_VID, new VidAuthUtil.OnAuthResultListener() {
             @Override
-            public void onSuccess(String vid, String akid, String akSecret, String token) {
-                VidSts vidSts = new VidSts();
-                vidSts.setVid(downloadMediaInfo.getVid());
-                vidSts.setRegion("cn-shanghai");
-                vidSts.setAccessKeyId(akid);
-                vidSts.setSecurityToken(token);
-                vidSts.setAccessKeySecret(akSecret);
-                vidSts.setQuality(downloadMediaInfo.getQuality(), false);
-                downloadMediaInfo.setVidSts(vidSts);
+            public void onSuccess(String vid, String playAuth, String title, String coverPath) {
+                VidAuth vidAuth = new VidAuth();
+                vidAuth.setVid(downloadMediaInfo.getVid());
+                vidAuth.setRegion(PlayParameter.PLAY_PARAM_REGION);
+                vidAuth.setPlayAuth(playAuth);
+                vidAuth.setTitle(title);
+                vidAuth.setCoverPath(coverPath);
+                vidAuth.setQuality(downloadMediaInfo.getQuality(), false);
+                downloadMediaInfo.setVidAuth(vidAuth);
                 prepareDownloadByQuality(downloadMediaInfo, intentState);
             }
 
@@ -1151,15 +1153,15 @@ public class AliyunDownloadManager {
 
                     if (selectDownloadingList != null) {
                         Iterator<AliyunDownloadMediaInfo> iterator = selectDownloadingList.iterator();
-                        while(iterator.hasNext()){
+                        while (iterator.hasNext()) {
                             AliyunDownloadMediaInfo mediaInfo = iterator.next();
-                            if(mediaInfo.getProgress() == 100){
+                            if (mediaInfo.getProgress() == 100) {
                                 mediaInfo.setStatus(AliyunDownloadMediaInfo.Status.Complete);
                                 iterator.remove();
-                                if(selectCompletedList != null){
+                                if (selectCompletedList != null) {
                                     selectCompletedList.add(mediaInfo);
                                 }
-                            }else{
+                            } else {
                                 mediaInfo.setStatus(AliyunDownloadMediaInfo.Status.Stop);
                             }
                         }
@@ -1172,7 +1174,7 @@ public class AliyunDownloadManager {
                     if (selectPreparedList != null) {
                         dataList.addAll(selectPreparedList);
                     }
-                    if(selectCompletedList != null){
+                    if (selectCompletedList != null) {
                         dataList.addAll(selectCompletedList);
                     }
 
@@ -1195,12 +1197,12 @@ public class AliyunDownloadManager {
 
                     //增加本地文件判断,如果文件手动删除,则从数据库中删除
                     Iterator<AliyunDownloadMediaInfo> iterator = dataList.iterator();
-                    while(iterator.hasNext()){
+                    while (iterator.hasNext()) {
                         AliyunDownloadMediaInfo nextDownloadMediaInfo = iterator.next();
                         String savePath = nextDownloadMediaInfo.getSavePath();
-                        if(!TextUtils.isEmpty(savePath)){
+                        if (!TextUtils.isEmpty(savePath)) {
                             File file = new File(savePath);
-                            if(!file.exists() && nextDownloadMediaInfo.getStatus() == AliyunDownloadMediaInfo.Status.Complete){
+                            if (!file.exists() && nextDownloadMediaInfo.getStatus() == AliyunDownloadMediaInfo.Status.Complete) {
                                 iterator.remove();
                                 mDatabaseManager.delete(nextDownloadMediaInfo);
                             }
@@ -1283,6 +1285,13 @@ public class AliyunDownloadManager {
      * sts 刷新回调
      */
     public void setRefreshStsCallback(final RefreshStsCallback refreshStsCallback) {
+
+    }
+
+    /**
+     * Auth 刷新回调
+     */
+    public void setRefreshAuthCallback(final RefreshAuthCallback refreshAuthCallback) {
 
     }
 }

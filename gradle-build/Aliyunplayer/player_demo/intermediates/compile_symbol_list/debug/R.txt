@@ -1037,8 +1037,6 @@ int id action_text 0x0
 int id actions 0x0
 int id activity_chooser_view_content 0x0
 int id add 0x0
-int id akId 0x0
-int id akSecret 0x0
 int id alertTitle 0x0
 int id alivc_back 0x0
 int id alivc_current_download 0x0
@@ -1107,7 +1105,11 @@ int id encode_failed 0x0
 int id encode_succeeded 0x0
 int id end 0x0
 int id end_padder 0x0
+int id et_cover_path 0x0
+int id et_play_auth 0x0
 int id et_play_url 0x0
+int id et_title 0x0
+int id et_vid 0x0
 int id expand_activities_button 0x0
 int id expanded_menu 0x0
 int id fl 0x0
@@ -1225,7 +1227,6 @@ int id screen_cost_ll 0x0
 int id scrollIndicatorDown 0x0
 int id scrollIndicatorUp 0x0
 int id scrollView 0x0
-int id scuToken 0x0
 int id search_badge 0x0
 int id search_bar 0x0
 int id search_book_contents_failed 0x0
@@ -1323,7 +1324,6 @@ int id tv_vidplay 0x0
 int id two 0x0
 int id uniform 0x0
 int id up 0x0
-int id vid 0x0
 int id video_list 0x0
 int id video_view 0x0
 int id viewfinder_content 0x0
@@ -1391,7 +1391,7 @@ int layout alivc_layout_empty_view 0x0
 int layout alivc_marquee_view 0x0
 int layout alivc_play_list_item 0x0
 int layout alivc_player_layout_skin 0x0
-int layout alivc_player_view_vid_sts 0x0
+int layout alivc_player_view_vid_auth 0x0
 int layout alivc_trailers_view_layout 0x0
 int layout alivc_view_adv_picture 0x0
 int layout alivc_view_control 0x0
@@ -1595,9 +1595,9 @@ int string download_wait 0x0
 int string encode_qrcode 0x0
 int string encrypted 0x0
 int string encrypted_no 0x0
-int string inout_accesskeyid_here 0x0
-int string input_accesskeysecret_here 0x0
-int string input_securitytoken_here 0x0
+int string inout_play_auth_here 0x0
+int string input_cover_path_here 0x0
+int string input_title_here 0x0
 int string input_url_here 0x0
 int string input_vid_here 0x0
 int string kickbt 0x0
@@ -1654,7 +1654,7 @@ int string play_url_null_toast 0x0
 int string player_log 0x0
 int string prepare_download_item 0x0
 int string qrcodetext 0x0
-int string request_vidsts_fail 0x0
+int string request_vid_auth_fail 0x0
 int string search_menu_title 0x0
 int string start_player_setting 0x0
 int string start_player_ui 0x0

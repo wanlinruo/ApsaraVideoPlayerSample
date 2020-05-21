@@ -2,6 +2,7 @@ package com.aliyun.vodplayerview.utils;
 
 import android.os.AsyncTask;
 
+import com.aliyun.player.source.VidAuth;
 import com.aliyun.player.source.VidSts;
 import com.aliyun.utils.VcPlayerLog;
 import com.aliyun.vodplayerview.playlist.vod.core.AliyunVodHttpCommon;
@@ -20,62 +21,27 @@ public class VidAuthUtil {
 
     private static final String TAG = VidAuthUtil.class.getSimpleName();
 
-    public static VidSts getVidSts(String videoId) {
+    public interface OnAuthResultListener {
 
-        try {
-            //以前的连接地址"https://demo-vod.cn-shanghai.aliyuncs.com/voddemo/CreateSecurityToken?BusinessType=vodai&TerminalType=pc&DeviceModel=iPhone9,2&UUID=59ECA-4193-4695-94DD-7E1247288&AppVersion=1.0.0&VideoId=" + videoId"
-            String stsUrl = AliyunVodHttpCommon.getInstance().getVodAuthDomain() + "getSts";
-            String response = HttpClientUtil.doGet(stsUrl);
-            JSONObject jsonObject = new JSONObject(response);
-
-            JSONObject securityTokenInfo = jsonObject.getJSONObject("data");
-            if (securityTokenInfo == null) {
-
-                VcPlayerLog.e(TAG, "SecurityTokenInfo == null ");
-                return null;
-            }
-
-            String accessKeyId = securityTokenInfo.getString("accessKeyId");
-            String accessKeySecret = securityTokenInfo.getString("accessKeySecret");
-            String securityToken = securityTokenInfo.getString("securityToken");
-            String expiration = securityTokenInfo.getString("expiration");
-
-            VcPlayerLog.e("radish", "accessKeyId = " + accessKeyId + " , accessKeySecret = " + accessKeySecret +
-                    " , securityToken = " + securityToken + " ,expiration = " + expiration);
-
-            VidSts vidSts = new VidSts();
-            vidSts.setVid(videoId);
-            vidSts.setAccessKeyId(accessKeyId);
-            vidSts.setAccessKeySecret(accessKeySecret);
-            vidSts.setSecurityToken(securityToken);
-            return vidSts;
-
-        } catch (Exception e) {
-            VcPlayerLog.e(TAG, "e = " + e.getMessage());
-            return null;
-        }
-    }
-
-    public interface OnStsResultListener {
-        void onSuccess(String vid, String akid, String akSecret, String token);
+        void onSuccess(String vid, String playAuth, String title, String coverPath);
 
         void onFail();
     }
 
-    public static void getVidSts(final String vid, final VidStsUtil.OnStsResultListener onStsResultListener) {
-        AsyncTask<Void, Void, VidSts> asyncTask = new AsyncTask<Void, Void, VidSts>() {
+    public static void getVidAuth(final String vid, final VidAuthUtil.OnAuthResultListener onAuthResultListener) {
+        AsyncTask<Void, Void, VidAuth> asyncTask = new AsyncTask<Void, Void, VidAuth>() {
 
             @Override
-            protected VidSts doInBackground(Void... params) {
-                return getVidSts(vid);
+            protected VidAuth doInBackground(Void... params) {
+                return getVidAuth(vid);
             }
 
             @Override
-            protected void onPostExecute(VidSts s) {
-                if (s == null) {
-                    onStsResultListener.onFail();
+            protected void onPostExecute(VidAuth vidAuth) {
+                if (vidAuth == null) {
+                    onAuthResultListener.onFail();
                 } else {
-                    onStsResultListener.onSuccess(s.getVid(), s.getAccessKeyId(), s.getAccessKeySecret(), s.getSecurityToken());
+                    onAuthResultListener.onSuccess(vidAuth.getVid(), vidAuth.getPlayAuth(), vidAuth.getTitle(), vidAuth.getCoverPath());
                 }
             }
         };
@@ -83,9 +49,9 @@ public class VidAuthUtil {
     }
 
 
-    public static VidSts getVidAuth(String videoId) {
+    public static VidAuth getVidAuth(String videoId) {
         try {
-            String stsUrl = AliyunVodHttpCommon.getInstance().getVodAuthDomain() + "getSts";
+            String stsUrl = AliyunVodHttpCommon.getInstance().getVodAuthApi() + "?videoId=" + videoId;
             String response = HttpClientUtil.doGet(stsUrl);
             JSONObject jsonObject = new JSONObject(response);
 
@@ -96,20 +62,20 @@ public class VidAuthUtil {
                 return null;
             }
 
-            String accessKeyId = securityTokenInfo.getString("accessKeyId");
-            String accessKeySecret = securityTokenInfo.getString("accessKeySecret");
-            String securityToken = securityTokenInfo.getString("securityToken");
-            String expiration = securityTokenInfo.getString("expiration");
+            String playAuth = securityTokenInfo.getString("playAuth");
+            String coverUrl = securityTokenInfo.getString("coverUrl");
+            String title = securityTokenInfo.getString("title");
+            String duration = securityTokenInfo.getString("duration");
 
-            VcPlayerLog.e("radish", "accessKeyId = " + accessKeyId + " , accessKeySecret = " + accessKeySecret +
-                    " , securityToken = " + securityToken + " ,expiration = " + expiration);
+            VcPlayerLog.e("radish", "playAuth = " + playAuth + " , coverUrl = " + coverUrl +
+                    " , title = " + title + " ,duration = " + duration);
 
-            VidSts vidSts = new VidSts();
-            vidSts.setVid(videoId);
-            vidSts.setAccessKeyId(accessKeyId);
-            vidSts.setAccessKeySecret(accessKeySecret);
-            vidSts.setSecurityToken(securityToken);
-            return vidSts;
+            VidAuth vidAuth = new VidAuth();
+            vidAuth.setVid(videoId);
+            vidAuth.setPlayAuth(playAuth);
+            vidAuth.setTitle(title);
+            vidAuth.setCoverPath(coverUrl);
+            return vidAuth;
 
         } catch (Exception e) {
             VcPlayerLog.e(TAG, "e = " + e.getMessage());

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/alivc_common_padding_5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_30"
+            android:gravity="left"
+            android:text="vid"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_vid"
+            style="@style/edit_line_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_vid_here"
+            android:text="09cf8b916ecc4613aa4a0044f70a06fd"
+            android:textColorHint="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sts_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/alivc_common_padding_5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/alivc_common_margin_30"
+                android:gravity="left"
+                android:text="PlayAuth"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/et_play_auth"
+                style="@style/edit_line_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/inout_play_auth_here"
+                android:text=""
+                android:textColorHint="@android:color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/alivc_common_padding_5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/alivc_common_margin_30"
+                android:gravity="left"
+                android:text="Title"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/et_title"
+                style="@style/edit_line_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_title_here"
+                android:text=""
+                android:textColorHint="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/alivc_common_padding_5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/alivc_common_margin_30"
+                android:gravity="left"
+                android:text="CoverPath"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/et_cover_path"
+                style="@style/edit_5line_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:hint="@string/input_cover_path_here"
+                android:lines="5"
+                android:maxLines="5"
+                android:text=""
+                android:textColorHint="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

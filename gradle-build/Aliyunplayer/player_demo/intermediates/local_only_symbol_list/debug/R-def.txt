@@ -142,8 +142,6 @@ drawable round_bkg_selector
 drawable round_bkg_us
 drawable round_rect_pressed
 drawable round_rect_unpressed
-id akId
-id akSecret
 id alivc_back
 id alivc_current_download
 id alivc_download_start
@@ -189,7 +187,11 @@ id download_view
 id empty_view_detail
 id empty_view_img
 id empty_view_title
+id et_cover_path
+id et_play_auth
 id et_play_url
+id et_title
+id et_vid
 id fl
 id gesture_image
 id gesture_text
@@ -253,7 +255,6 @@ id rl_download_video_cover_stats
 id rl_logs_content
 id rl_video_download_info_stats
 id screen_cost_ll
-id scuToken
 id seek_alpha
 id seek_light
 id seek_region
@@ -308,7 +309,6 @@ id tv_video_title
 id tv_video_total_size
 id tv_vidplay
 id two
-id vid
 id video_list
 id video_view
 id volume_text
@@ -337,7 +337,7 @@ layout alivc_layout_empty_view
 layout alivc_marquee_view
 layout alivc_play_list_item
 layout alivc_player_layout_skin
-layout alivc_player_view_vid_sts
+layout alivc_player_view_vid_auth
 layout alivc_trailers_view_layout
 layout alivc_view_adv_picture
 layout alivc_view_control
@@ -456,9 +456,9 @@ string download_prepare
 string download_wait
 string encrypted
 string encrypted_no
-string inout_accesskeyid_here
-string input_accesskeysecret_here
-string input_securitytoken_here
+string inout_play_auth_here
+string input_cover_path_here
+string input_title_here
 string input_url_here
 string input_vid_here
 string kickbt
@@ -482,7 +482,7 @@ string no_download_right
 string play_url_null_toast
 string player_log
 string prepare_download_item
-string request_vidsts_fail
+string request_vid_auth_fail
 string start_player_setting
 string start_player_ui
 string toast_play_compleion

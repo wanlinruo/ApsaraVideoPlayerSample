@@ -17,17 +17,15 @@ public class AliyunVodHttpCommon {
      * sts host
      */
     private static String VOD_STS_DOMAIN = "http://47.100.18.52:8081/demo/";
+    private static String API_VOD_STS_LIST = VOD_STS_DOMAIN + "getVideoList";
+
 
     /**
      * auth host
      */
     private static String VOD_AUTH_DOMAIN = "http://192.168.97.6:9005/";
-
-
-    private static String API_VOD_STS_LIST = VOD_STS_DOMAIN + "getVideoList";
-
-
     private static String API_VOD_AUTH_LIST = VOD_AUTH_DOMAIN + "content/vodInfo/infoByUid";
+    private static String API_VOD_AUTH = VOD_AUTH_DOMAIN + "content/vodInfo/getPlayAuth";
 
 
     public static final String HTTP_METHOD = "GET";
@@ -110,10 +108,6 @@ public class AliyunVodHttpCommon {
         return API_VOD_STS_LIST;
     }
 
-    public String getVodAuthListAPI(){
-        return API_VOD_AUTH_LIST;
-    }
-
     public void setVodStsListApi(String vodStsListApi) {
         if (TextUtils.isEmpty(vodStsListApi)) {
             return;
@@ -132,6 +126,9 @@ public class AliyunVodHttpCommon {
         VOD_STS_DOMAIN = vodStsDomain;
     }
 
+
+    //=================================================Auth==============================================================
+
     public String getVodAuthDomain() {
         return VOD_AUTH_DOMAIN;
     }
@@ -141,6 +138,28 @@ public class AliyunVodHttpCommon {
             return;
         }
         VOD_AUTH_DOMAIN = vodAuthDomain;
+    }
+
+    public String getVodAuthListApi() {
+        return API_VOD_AUTH_LIST;
+    }
+
+    public void setVodAuthListApi(String vodAuthListApi) {
+        if (TextUtils.isEmpty(vodAuthListApi)) {
+            return;
+        }
+        API_VOD_AUTH_LIST = vodAuthListApi;
+    }
+
+    public String getVodAuthApi() {
+        return API_VOD_AUTH;
+    }
+
+    public void setVodAuthApi(String vodAuthApi) {
+        if (TextUtils.isEmpty(vodAuthApi)) {
+            return;
+        }
+        API_VOD_AUTH = vodAuthApi;
     }
 
 }

@@ -133,9 +133,9 @@
     <string name="download_wait">waiting</string>
     <string name="encrypted">Encrypted</string>
     <string name="encrypted_no">Unencrypted</string>
-    <string name="inout_accesskeyid_here">input accesskeyId here </string>
-    <string name="input_accesskeysecret_here">input accesskeySecret here</string>
-    <string name="input_securitytoken_here">input securityToken here </string>
+    <string name="inout_play_auth_here">input playAuth here </string>
+    <string name="input_cover_path_here">input coverPath here </string>
+    <string name="input_title_here">input title here</string>
     <string name="input_url_here">Enter a URL </string>
     <string name="input_vid_here">Please input vid here</string>
     <string name="kickbt">Ok</string>
@@ -159,32 +159,32 @@
     <string name="play_url_null_toast">Play video URL cannot be null</string>
     <string name="player_log">Player Logs：</string>
     <string name="prepare_download_item">To prepare download-item</string>
-    <string name="request_vidsts_fail">Request a vidsts failed</string>
+    <string name="request_vid_auth_fail">Request a vidAuth failed</string>
     <string name="start_player_setting">Play by VID or URL</string>
     <string name="start_player_ui">Play Video</string>
     <string name="toast_play_compleion">video ended</string>
     <string name="toast_prepare_success">Prepared successfully</string>
     <style name="AlivcDialog.Dialog" parent="android:style/Theme.Dialog">
-        <!--背景颜色及和透明程度-->
+        
         <item name="android:windowBackground">@android:color/transparent</item>
-        <!--是否去除标题 -->
+        
         <item name="android:windowNoTitle">true</item>
-        <!--是否去除边框-->
+        
         <item name="android:windowFrame">@null</item>
-        <!--是否浮现在activity之上-->
+        
         <item name="android:windowIsFloating">true</item>
-        <!--是否模糊-->
+        
         <item name="android:backgroundDimEnabled">false</item>
     </style>
     <style name="BottomCheckDialog" parent="android:Theme.Dialog">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowAnimationStyle">@null
-        </item><!-- 为了避免在有 NavigationBar 的手机上 Dialog 从 NavigationBar 底部上来。去掉 Dialog 的动画，使用 View 的动画。-->
+        </item>
         <item name="android:layout_width">match_parent</item>
     </style>
     <style name="NoActionTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -194,7 +194,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowAnimationStyle">@null</item>
-        <!-- 为了避免在有 NavigationBar 的手机上 Dialog 从 NavigationBar 底部上来。去掉 Dialog 的动画，使用 View 的动画。-->
+        
         <item name="android:layout_width">match_parent</item>
         <item name="android:padding">0dp</item>
     </style>

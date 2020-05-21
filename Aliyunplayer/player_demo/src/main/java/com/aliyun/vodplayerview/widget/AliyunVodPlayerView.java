@@ -1276,7 +1276,7 @@ public class AliyunVodPlayerView extends RelativeLayout implements ITheme {
      */
     private boolean isLocalSource() {
         String scheme = null;
-        if ("vidsts".equals(PlayParameter.PLAY_PARAM_TYPE)) {
+        if ("vidAuth".equals(PlayParameter.PLAY_PARAM_TYPE)) {
             return false;
         }
         if ("localSource".equals(PlayParameter.PLAY_PARAM_TYPE)) {
@@ -1291,7 +1291,7 @@ public class AliyunVodPlayerView extends RelativeLayout implements ITheme {
      */
     private boolean isUrlSource() {
         String scheme = null;
-        if ("vidsts".equals(PlayParameter.PLAY_PARAM_TYPE)) {
+        if ("vidAuth".equals(PlayParameter.PLAY_PARAM_TYPE)) {
             return false;
         } else {
             Uri parse = Uri.parse(PlayParameter.PLAY_PARAM_URL);

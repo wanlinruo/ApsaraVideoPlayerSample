@@ -77,39 +77,4 @@ public class VidStsUtil {
         };
         asyncTask.execute();
     }
-
-
-    public static VidSts getVidAuth(String videoId) {
-        try {
-            String stsUrl = AliyunVodHttpCommon.getInstance().getVodStsDomain() + "getSts";
-            String response = HttpClientUtil.doGet(stsUrl);
-            JSONObject jsonObject = new JSONObject(response);
-
-            JSONObject securityTokenInfo = jsonObject.getJSONObject("data");
-            if (securityTokenInfo == null) {
-
-                VcPlayerLog.e(TAG, "SecurityTokenInfo == null ");
-                return null;
-            }
-
-            String accessKeyId = securityTokenInfo.getString("accessKeyId");
-            String accessKeySecret = securityTokenInfo.getString("accessKeySecret");
-            String securityToken = securityTokenInfo.getString("securityToken");
-            String expiration = securityTokenInfo.getString("expiration");
-
-            VcPlayerLog.e("radish", "accessKeyId = " + accessKeyId + " , accessKeySecret = " + accessKeySecret +
-                    " , securityToken = " + securityToken + " ,expiration = " + expiration);
-
-            VidSts vidSts = new VidSts();
-            vidSts.setVid(videoId);
-            vidSts.setAccessKeyId(accessKeyId);
-            vidSts.setAccessKeySecret(accessKeySecret);
-            vidSts.setSecurityToken(securityToken);
-            return vidSts;
-
-        } catch (Exception e) {
-            VcPlayerLog.e(TAG, "e = " + e.getMessage());
-            return null;
-        }
-    }
 }

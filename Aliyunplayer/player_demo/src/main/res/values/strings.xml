@@ -32,13 +32,13 @@
     <string name="alivc_volume">volume</string>
 
     <string name="input_vid_here">Please input vid here</string>
-    <string name="inout_accesskeyid_here">input accesskeyId here </string>
-    <string name="input_accesskeysecret_here">input accesskeySecret here</string>
-    <string name="input_securitytoken_here">input securityToken here </string>
+    <string name="inout_play_auth_here">input playAuth here </string>
+    <string name="input_title_here">input title here</string>
+    <string name="input_cover_path_here">input coverPath here </string>
     <string name="input_url_here">Enter a URL </string>
     <string name="start_player_ui">Play Video</string>
     <string name="start_player_setting">Play by VID or URL</string>
-    <string name="request_vidsts_fail">Request a vidsts failed</string>
+    <string name="request_vid_auth_fail">Request a vidAuth failed</string>
     <string name="play_url_null_toast">Play video URL cannot be null</string>
     <string name="clear_logs">clear logs</string>
 

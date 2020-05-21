@@ -1,25 +1,21 @@
 package com.aliyun.vodplayerview.view.download;
 
+import android.content.Context;
+
+import com.aliyun.vodplayerview.utils.database.LoadDbDatasListener;
+import com.aliyun.vodplayerview.utils.download.AliyunDownloadManager;
+import com.aliyun.vodplayerview.utils.download.AliyunDownloadMediaInfo;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.ConcurrentLinkedQueue;
-
-import android.content.Context;
-import android.util.Log;
-
-import com.aliyun.vodplayerview.utils.DownloadSaveInfoUtil;
-import com.aliyun.vodplayerview.utils.VidStsUtil;
-import com.aliyun.vodplayerview.utils.database.LoadDbDatasListener;
-import com.aliyun.vodplayerview.utils.download.AliyunDownloadManager;
-import com.aliyun.vodplayerview.utils.download.AliyunDownloadMediaInfo;
 
 /**
  * @author Mulberry
- *         create on 2018/4/16.
+ * create on 2018/4/16.
  */
 
 public class DownloadDataProvider {
@@ -49,9 +45,10 @@ public class DownloadDataProvider {
 
     /**
      * 回复
+     *
      * @return
      */
-    public void restoreMediaInfo(final LoadDbDatasListener loadDbDatasListener){
+    public void restoreMediaInfo(final LoadDbDatasListener loadDbDatasListener) {
         aliyunDownloadMediaInfos = new ArrayList<>();
         downloadManager.findDatasByDb(new LoadDbDatasListener() {
             @Override
@@ -65,10 +62,11 @@ public class DownloadDataProvider {
 
     /**
      * 获取所有下载 MediaInfo 信息
+     *
      * @return
      */
-    public List<AliyunDownloadMediaInfo> getAllDownloadMediaInfo(){
-        if(aliyunDownloadMediaInfos == null){
+    public List<AliyunDownloadMediaInfo> getAllDownloadMediaInfo() {
+        if (aliyunDownloadMediaInfos == null) {
             aliyunDownloadMediaInfos = new ArrayList<>();
         }
         return aliyunDownloadMediaInfos;
@@ -76,14 +74,15 @@ public class DownloadDataProvider {
 
     /**
      * 数据去重
+     *
      * @return
      */
-    public void deleteDumpData(){
-        Set set  =   new  HashSet();
-        List newList  =   new  ArrayList();
-        for  (Iterator iter = aliyunDownloadMediaInfos.iterator(); iter.hasNext();)   {
-            Object element  =  iter.next();
-            if  (set.add(element)){
+    public void deleteDumpData() {
+        Set set = new HashSet();
+        List newList = new ArrayList();
+        for (Iterator iter = aliyunDownloadMediaInfos.iterator(); iter.hasNext(); ) {
+            Object element = iter.next();
+            if (set.add(element)) {
                 newList.add(element);
             }
         }
@@ -94,11 +93,12 @@ public class DownloadDataProvider {
 
     /**
      * 添加新的下载任务
+     *
      * @param aliyunDownloadMediaInfo
      * @return
      */
-    public void addDownloadMediaInfo(AliyunDownloadMediaInfo aliyunDownloadMediaInfo){
-        if (hasAdded(aliyunDownloadMediaInfo)){
+    public void addDownloadMediaInfo(AliyunDownloadMediaInfo aliyunDownloadMediaInfo) {
+        if (hasAdded(aliyunDownloadMediaInfo)) {
             return;
         }
         if (aliyunDownloadMediaInfos != null) {
@@ -108,15 +108,16 @@ public class DownloadDataProvider {
 
     /**
      * 判断是否已经存在
+     *
      * @param info
      * @return
      */
     public boolean hasAdded(AliyunDownloadMediaInfo info) {
         for (AliyunDownloadMediaInfo downloadMediaInfo : aliyunDownloadMediaInfos) {
             if (info != null && info.getFormat().equals(downloadMediaInfo.getFormat()) &&
-                info.getQuality().equals(downloadMediaInfo.getQuality()) &&
-                info.getVid().equals(downloadMediaInfo.getVid()) &&
-                info.isEncripted() == downloadMediaInfo.isEncripted()) {
+                    info.getQuality().equals(downloadMediaInfo.getQuality()) &&
+                    info.getVid().equals(downloadMediaInfo.getVid()) &&
+                    info.isEncripted() == downloadMediaInfo.isEncripted()) {
                 return true;
             }
         }
@@ -125,11 +126,12 @@ public class DownloadDataProvider {
 
     /**
      * 删除已经下载的数据
+     *
      * @param aliyunDownloadMediaInfo
      * @return
      */
-    public void deleteDownloadMediaInfo(AliyunDownloadMediaInfo aliyunDownloadMediaInfo){
-        if (aliyunDownloadMediaInfos != null){
+    public void deleteDownloadMediaInfo(AliyunDownloadMediaInfo aliyunDownloadMediaInfo) {
+        if (aliyunDownloadMediaInfos != null) {
             downloadManager.deleteFile(aliyunDownloadMediaInfo);
             aliyunDownloadMediaInfos.remove(aliyunDownloadMediaInfo);
 //            downloadSaveInfoUtil.deleteInfo(aliyunDownloadMediaInfo);
@@ -138,14 +140,15 @@ public class DownloadDataProvider {
 
     /**
      * 删除所有视频
+     *
      * @return
      */
-    public void deleteAllDownloadInfo(ArrayList<AlivcDownloadMediaInfo> alivcDownloadMediaInfos){
-        if (aliyunDownloadMediaInfos != null){
-             aliyunDownloadMediaInfos.clear();
+    public void deleteAllDownloadInfo(ArrayList<AlivcDownloadMediaInfo> alivcDownloadMediaInfos) {
+        if (aliyunDownloadMediaInfos != null) {
+            aliyunDownloadMediaInfos.clear();
         }
 
-        for (AlivcDownloadMediaInfo info :alivcDownloadMediaInfos){
+        for (AlivcDownloadMediaInfo info : alivcDownloadMediaInfos) {
             deleteDownloadMediaInfo(info.getAliyunDownloadMediaInfo());
         }
 

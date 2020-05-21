@@ -37,16 +37,13 @@ public class AlivcPlayListManager {
         void onPlayList(int code, ArrayList<CusAlivcVideoInfo> videos);
     }
 
-    public void fetchPlayList(String accessKeyId, String accessKeySecret, String securityToken, PlayListListener playListListener) {
-        fetchVideoList(accessKeyId, accessKeySecret, securityToken, playListListener);
+    public void fetchPlayList(PlayListListener playListListener) {
+        fetchVideoList(playListListener);
     }
 
-    private void fetchVideoList(String accessKeyId, String accessKeySecret, String securityToken, final PlayListListener playListListener) {
-
-        OkHttpClient client = new OkHttpClient.Builder()
-                .build();
-//        String url = AliyunVodHttpCommon.getInstance().getVodStsListApi() + "?" + AliyunVodKey.KEY_NEW_VOD_CATEID + "=" + AliyunVodHttpCommon.Action.GET_VIDEO_CATE_ID;
-        String url = AliyunVodHttpCommon.getInstance().getVodAuthListAPI();
+    private void fetchVideoList(final PlayListListener playListListener) {
+        OkHttpClient client = new OkHttpClient.Builder().build();
+        String url = AliyunVodHttpCommon.getInstance().getVodAuthListApi();
         final Request request = new Request.Builder()
                 .url(url)
                 .build();
