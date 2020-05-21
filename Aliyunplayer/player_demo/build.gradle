@@ -9,7 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
 
@@ -30,9 +30,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.aar'], dir: 'libs')
-    compile project(':Aliyunplayer:AlivcPlayer')
-    compile project(':zxing')
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
+    implementation project(':Aliyunplayer:AlivcPlayer')
+    implementation project(':zxing')
     implementation project(':AliyunVideoCommon')
     implementation externalAndroidSupportV4
     implementation externalAndroidAppCompatV7

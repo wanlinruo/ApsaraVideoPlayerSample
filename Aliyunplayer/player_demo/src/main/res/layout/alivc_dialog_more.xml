@@ -164,7 +164,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/alivc_dialog_voice_down" />
 
-                <android.support.v7.widget.AppCompatSeekBar
+                <androidx.appcompat.widget.AppCompatSeekBar
                     android:id="@+id/seek_voice"
                     style="@style/alivc_info_seekbar_blue_voice"
                     android:layout_width="0dp"
@@ -197,7 +197,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/alivc_light_down" />
 
-                <android.support.v7.widget.AppCompatSeekBar
+                <androidx.appcompat.widget.AppCompatSeekBar
                     android:id="@+id/seek_light"
                     style="@style/alivc_info_seekbar_blue_light"
                     android:layout_width="0dp"

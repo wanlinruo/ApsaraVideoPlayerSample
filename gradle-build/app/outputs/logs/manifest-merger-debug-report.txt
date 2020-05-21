@@ -1,46 +1,77 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ffccf2cce8766b99c945592d3e73e3d3\multidex-1.0.2\AndroidManifest.xml:17:1-22:12
+ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\c0df0d9da7bd7b12c31e0d87ec02b8b1\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-41:12
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-24:12
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-56:12
 MERGED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-27:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2bf8f95ab94366698cc7bc04fd2283fd\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b7a0c702b4c2b55caf9a175f5b41a11\recyclerview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:2:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\84b56452194d320ef22bad687b845300\glide-4.8.0\AndroidManifest.xml:2:1-12:12
-MERGED from [:Aliyunplayer:AlivcPlayer] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\AlivcPlayer\.transforms\9f28c11efe8ed7177954a468b4e66dc5\AliyunPlayer-4.7.4-part\AndroidManifest.xml:2:1-11:12
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:17:1-72:12
-MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bca0859528f9e2d66bf33b3a57a2488a\AlivcConan-0.9.5.1\AndroidManifest.xml:2:1-13:12
-MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\46a0e486cdfab0b4ade46408bfacc2bc\DanmakuFlameMaster-0.9.25\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0be6f760b17962e3c54e3840352a8b37\animated-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\424879dfd41f76ca294f239aab60e839\support-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ce685f01a8afe01af0e1ad3e8c9fc18b\support-media-compat-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a11620b12081515a8d1e8971580439d\support-fragment-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d84953c6b4260406967be204cc96b489\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b284f0fd717a97a52261154830a4728\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\30c2c9865f53b929cd3822f62a67836d\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ae41c64359bda4e903b44c08a1cf984f\gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e0545ece8045dd77d5d9ecf4c299e97d\leakcanary-analyzer-1.6.1\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80d16882df84533bd1e54bba9b1c4328\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\82e6f210782e36b4b8ff138c273226d3\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bd9eaa2992ad422b7eac643b0aac27f7\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\69b4c8670b91f17f79d043e1e50fac52\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8c430725184f2a77ad2f1eec85b26fd5\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:2:1-22:12
+MERGED from [jp.wasabeef:glide-transformations:4.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a62a76b019c5c10f42a79fa032e02d2c\jetified-glide-transformations-4.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8d16278871ebe40fb7672fe83ee53f6f\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [:Aliyunplayer:AlivcPlayer] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\AlivcPlayer\.transforms\dca00a00a6cf6e7cfd23f6fcb1b0603f\jetified-AliyunPlayer-4.7.4-part\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:17:1-72:12
+MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5861c0ffba13a3b3181ef44587038519\jetified-AlivcConan-0.9.5.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\95f3c62a3fea0a61da9b24aefecd8a88\jetified-DanmakuFlameMaster-0.9.25\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core-ktx:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\b0c6ef8d1d5e08ed3a8e23a102fadd39\jetified-core-ktx-1.4.0-alpha01\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80ab11731f015223616277d743ce584c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d13c4fc8880d4c3f310ab3255d921676\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\66831bbb7c85f6c9dc30b58d933da5fd\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\54fd8c0e3c6eee2370ffb19f3f8dc916\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a2bb624cb819bad696038cbc09a3483\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\3116bba4d3ffc4667a39b338627d6e97\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\73e1622e0283f301bc23a23ce077ad8e\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\035f3ead55434a936fac43666c47076e\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\63eb00b0bf61ca493168a066cb8498da\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f65d04a2562ed7058bccea557754c28a\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\fd1465be54204eb4f96594d66ca627f6\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\9eea074cf652341d7c423b14c7cccd8e\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\223164d984eb07f0c5b83727b8e85906\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e09806fedcaf73ee0e22595e708735dc\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\409924cd016c6c5d22217b64333b2716\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8f6f53577df462b883a0f29071a5c359\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a814bd133b4039435948c0667ee48966\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6151e126586f4a83f38912a51e2a7b82\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6f4cd621519e3e202420d4703573fbf0\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65a54277910d0fe1727441ce8390724a\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\662ad867cb6810c6726f1d9d83a7dc55\core-1.4.0-alpha01\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0c4a303e4845c1d71d38de564f7d7815\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\490bc29f7bf8bb8ad4dea60f819b0f75\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e968a761718dd842e4b2f47e5238a64b\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\b438d021203b1b2cd4bf7ee7b187a00e\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a8b5f2f918ccd5b61b38ba8ba7a0ef9d\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2b5a4cd18c0e85677b51f808520e4d53\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\c67b9bb136a4f6d2adb0b6b00aa57ae6\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a25feba509b9cf92e2d524d5a5ea1774\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\49555381fa7291ed6a909b646083fc2a\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bc3d08ee1c4710b4b0c8f772d2326f42\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\61045485808293e5346b591a420d3959\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8fb84686ddcc564983df753d3c52ba17\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\26edcac9172f08a708f7e4d675021c79\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\168d538504db09ffb1b51f9917597655\jetified-library-1.0.4\AndroidManifest.xml:1:106-7:12
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\7dd3965c99a930a03ceb86bf7f0976c5\jetified-library-1.0.2\AndroidManifest.xml:1:116-8:12
+INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
 		INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:1-57:12
 		INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:2:11-69
@@ -52,10 +83,12 @@ MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_vide
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-67
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-67
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-67
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:11:5-67
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.VIBRATE
@@ -84,10 +117,12 @@ MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_vide
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:12:5-79
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:12:5-79
-MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bca0859528f9e2d66bf33b3a57a2488a\AlivcConan-0.9.5.1\AndroidManifest.xml:11:5-79
-MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bca0859528f9e2d66bf33b3a57a2488a\AlivcConan-0.9.5.1\AndroidManifest.xml:11:5-79
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:12:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:12:5-79
+MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5861c0ffba13a3b3181ef44587038519\jetified-AlivcConan-0.9.5.1\AndroidManifest.xml:11:5-79
+MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5861c0ffba13a3b3181ef44587038519\jetified-AlivcConan-0.9.5.1\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
@@ -108,16 +143,20 @@ MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_vide
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-76
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-76
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-76
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:13:5-76
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:13:5-76
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-76
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:13:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:13:5-76
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:15:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
 ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:16:5-75
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-76
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-76
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:15:5-76
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:15:5-76
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-76
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:15:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:15:5-76
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:16:22-73
 uses-permission#android.permission.WAKE_LOCK
@@ -136,6 +175,8 @@ MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_vide
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-75
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-75
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-75
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-75
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-75
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:19:22-72
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
@@ -148,8 +189,10 @@ MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_vide
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-80
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-80
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-80
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:23:5-80
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:23:5-80
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:25:5-80
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:25:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:23:5-80
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:21:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -158,10 +201,14 @@ MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_vide
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:14:5-81
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:14:5-81
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:24:5-81
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:24:5-81
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-81
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-81
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:24:5-81
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:24:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:14:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:14:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:24:5-81
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:22:22-78
 uses-permission#android.permission.BLUETOOTH
@@ -179,43 +226,37 @@ ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:26:22-80
 application
-ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:28:5-54:19
+ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:28:5-55:19
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-39:19
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-39:19
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-54:19
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-54:19
 MERGED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-25:19
 MERGED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-25:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2bf8f95ab94366698cc7bc04fd2283fd\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2bf8f95ab94366698cc7bc04fd2283fd\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b7a0c702b4c2b55caf9a175f5b41a11\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b7a0c702b4c2b55caf9a175f5b41a11\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:17:5-20:19
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:17:5-20:19
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\84b56452194d320ef22bad687b845300\glide-4.8.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\84b56452194d320ef22bad687b845300\glide-4.8.0\AndroidManifest.xml:10:5-20
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:26:5-70:19
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:26:5-70:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0be6f760b17962e3c54e3840352a8b37\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0be6f760b17962e3c54e3840352a8b37\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\424879dfd41f76ca294f239aab60e839\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\424879dfd41f76ca294f239aab60e839\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ce685f01a8afe01af0e1ad3e8c9fc18b\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ce685f01a8afe01af0e1ad3e8c9fc18b\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a11620b12081515a8d1e8971580439d\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a11620b12081515a8d1e8971580439d\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d84953c6b4260406967be204cc96b489\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d84953c6b4260406967be204cc96b489\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b284f0fd717a97a52261154830a4728\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b284f0fd717a97a52261154830a4728\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\30c2c9865f53b929cd3822f62a67836d\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\30c2c9865f53b929cd3822f62a67836d\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ae41c64359bda4e903b44c08a1cf984f\gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ae41c64359bda4e903b44c08a1cf984f\gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e0545ece8045dd77d5d9ecf4c299e97d\leakcanary-analyzer-1.6.1\AndroidManifest.xml:22:5-20
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e0545ece8045dd77d5d9ecf4c299e97d\leakcanary-analyzer-1.6.1\AndroidManifest.xml:22:5-20
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80d16882df84533bd1e54bba9b1c4328\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80d16882df84533bd1e54bba9b1c4328\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\82e6f210782e36b4b8ff138c273226d3\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\82e6f210782e36b4b8ff138c273226d3\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:27:5-31:19
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:27:5-31:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:17:5-20:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:17:5-20:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8d16278871ebe40fb7672fe83ee53f6f\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8d16278871ebe40fb7672fe83ee53f6f\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:26:5-70:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:26:5-70:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\54fd8c0e3c6eee2370ffb19f3f8dc916\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\54fd8c0e3c6eee2370ffb19f3f8dc916\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\662ad867cb6810c6726f1d9d83a7dc55\core-1.4.0-alpha01\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\662ad867cb6810c6726f1d9d83a7dc55\core-1.4.0-alpha01\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2b5a4cd18c0e85677b51f808520e4d53\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2b5a4cd18c0e85677b51f808520e4d53\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\26edcac9172f08a708f7e4d675021c79\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\26edcac9172f08a708f7e4d675021c79\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:22:5-20
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\168d538504db09ffb1b51f9917597655\jetified-library-1.0.4\AndroidManifest.xml:5:5-19
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\168d538504db09ffb1b51f9917597655\jetified-library-1.0.4\AndroidManifest.xml:5:5-19
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\7dd3965c99a930a03ceb86bf7f0976c5\jetified-library-1.0.2\AndroidManifest.xml:5:5-6:19
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\7dd3965c99a930a03ceb86bf7f0976c5\jetified-library-1.0.2\AndroidManifest.xml:5:5-6:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\662ad867cb6810c6726f1d9d83a7dc55\core-1.4.0-alpha01\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:33:9-35
 	android:label
@@ -225,95 +266,157 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\cache
 	android:allowBackup
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:30:9-35
 	android:theme
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:34:9-40
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:35:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:34:9-69
 	android:name
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:29:9-64
 activity#com.aliyun.alivcsolution.SplashActivity
-ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:36:9-47:20
+ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:37:9-48:20
 	android:screenOrientation
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:37:13-49
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:38:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:40:13-64
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:41:13-64
 	android:configChanges
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:38:13-48
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:39:13-48
 	android:theme
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:39:13-52
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:40:13-52
 	android:name
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:36:19-73
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:37:19-73
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:42:13-46:29
+ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:43:17-69
+ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:43:25-66
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:45:17-77
+ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:45:27-74
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:46:27-74
 activity#com.aliyun.alivcsolution.MainActivity
-ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:49:9-52:20
+ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:50:9-53:20
 	android:screenOrientation
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:52:13-49
 	android:launchMode
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:51:50-81
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:52:50-81
 	android:theme
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:50:13-63
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:51:13-63
 	android:name
-		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:49:19-71
+		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml:50:19-71
 uses-sdk
 INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ffccf2cce8766b99c945592d3e73e3d3\multidex-1.0.2\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ffccf2cce8766b99c945592d3e73e3d3\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\c0df0d9da7bd7b12c31e0d87ec02b8b1\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\c0df0d9da7bd7b12c31e0d87ec02b8b1\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:AliyunVideoCommon] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVideoCommon\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2bf8f95ab94366698cc7bc04fd2283fd\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2bf8f95ab94366698cc7bc04fd2283fd\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b7a0c702b4c2b55caf9a175f5b41a11\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b7a0c702b4c2b55caf9a175f5b41a11\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5510711a9b26c0c15bca0cb1ce5e08a1\oss-android-sdk-2.9.3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\84b56452194d320ef22bad687b845300\glide-4.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\84b56452194d320ef22bad687b845300\glide-4.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [:Aliyunplayer:AlivcPlayer] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\AlivcPlayer\.transforms\9f28c11efe8ed7177954a468b4e66dc5\AliyunPlayer-4.7.4-part\AndroidManifest.xml:7:5-9:41
-MERGED from [:Aliyunplayer:AlivcPlayer] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\AlivcPlayer\.transforms\9f28c11efe8ed7177954a468b4e66dc5\AliyunPlayer-4.7.4-part\AndroidManifest.xml:7:5-9:41
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bca0859528f9e2d66bf33b3a57a2488a\AlivcConan-0.9.5.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bca0859528f9e2d66bf33b3a57a2488a\AlivcConan-0.9.5.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\46a0e486cdfab0b4ade46408bfacc2bc\DanmakuFlameMaster-0.9.25\AndroidManifest.xml:22:5-24:41
-MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\46a0e486cdfab0b4ade46408bfacc2bc\DanmakuFlameMaster-0.9.25\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0be6f760b17962e3c54e3840352a8b37\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0be6f760b17962e3c54e3840352a8b37\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\424879dfd41f76ca294f239aab60e839\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\424879dfd41f76ca294f239aab60e839\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ce685f01a8afe01af0e1ad3e8c9fc18b\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ce685f01a8afe01af0e1ad3e8c9fc18b\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a11620b12081515a8d1e8971580439d\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a11620b12081515a8d1e8971580439d\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d84953c6b4260406967be204cc96b489\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d84953c6b4260406967be204cc96b489\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b284f0fd717a97a52261154830a4728\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b284f0fd717a97a52261154830a4728\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\30c2c9865f53b929cd3822f62a67836d\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\30c2c9865f53b929cd3822f62a67836d\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ae41c64359bda4e903b44c08a1cf984f\gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ae41c64359bda4e903b44c08a1cf984f\gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e0545ece8045dd77d5d9ecf4c299e97d\leakcanary-analyzer-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e0545ece8045dd77d5d9ecf4c299e97d\leakcanary-analyzer-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80d16882df84533bd1e54bba9b1c4328\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80d16882df84533bd1e54bba9b1c4328\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\82e6f210782e36b4b8ff138c273226d3\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\82e6f210782e36b4b8ff138c273226d3\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bd9eaa2992ad422b7eac643b0aac27f7\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bd9eaa2992ad422b7eac643b0aac27f7\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\69b4c8670b91f17f79d043e1e50fac52\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\69b4c8670b91f17f79d043e1e50fac52\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8c430725184f2a77ad2f1eec85b26fd5\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8c430725184f2a77ad2f1eec85b26fd5\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\135e87dae2c06e26250e7675832b374d\jetified-oss-android-sdk-2.9.3\AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:4.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a62a76b019c5c10f42a79fa032e02d2c\jetified-glide-transformations-4.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:glide-transformations:4.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a62a76b019c5c10f42a79fa032e02d2c\jetified-glide-transformations-4.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8d16278871ebe40fb7672fe83ee53f6f\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8d16278871ebe40fb7672fe83ee53f6f\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [:Aliyunplayer:AlivcPlayer] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\AlivcPlayer\.transforms\dca00a00a6cf6e7cfd23f6fcb1b0603f\jetified-AliyunPlayer-4.7.4-part\AndroidManifest.xml:7:5-9:41
+MERGED from [:Aliyunplayer:AlivcPlayer] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\AlivcPlayer\.transforms\dca00a00a6cf6e7cfd23f6fcb1b0603f\jetified-AliyunPlayer-4.7.4-part\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5861c0ffba13a3b3181ef44587038519\jetified-AlivcConan-0.9.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alivc.conan:AlivcConan:0.9.5.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\5861c0ffba13a3b3181ef44587038519\jetified-AlivcConan-0.9.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\95f3c62a3fea0a61da9b24aefecd8a88\jetified-DanmakuFlameMaster-0.9.25\AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\95f3c62a3fea0a61da9b24aefecd8a88\jetified-DanmakuFlameMaster-0.9.25\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.core:core-ktx:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\b0c6ef8d1d5e08ed3a8e23a102fadd39\jetified-core-ktx-1.4.0-alpha01\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\b0c6ef8d1d5e08ed3a8e23a102fadd39\jetified-core-ktx-1.4.0-alpha01\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80ab11731f015223616277d743ce584c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80ab11731f015223616277d743ce584c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d13c4fc8880d4c3f310ab3255d921676\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d13c4fc8880d4c3f310ab3255d921676\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\66831bbb7c85f6c9dc30b58d933da5fd\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\66831bbb7c85f6c9dc30b58d933da5fd\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\54fd8c0e3c6eee2370ffb19f3f8dc916\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\54fd8c0e3c6eee2370ffb19f3f8dc916\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a2bb624cb819bad696038cbc09a3483\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a2bb624cb819bad696038cbc09a3483\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\3116bba4d3ffc4667a39b338627d6e97\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\3116bba4d3ffc4667a39b338627d6e97\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\73e1622e0283f301bc23a23ce077ad8e\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\73e1622e0283f301bc23a23ce077ad8e\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\035f3ead55434a936fac43666c47076e\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\035f3ead55434a936fac43666c47076e\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\63eb00b0bf61ca493168a066cb8498da\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\63eb00b0bf61ca493168a066cb8498da\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f65d04a2562ed7058bccea557754c28a\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f65d04a2562ed7058bccea557754c28a\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\fd1465be54204eb4f96594d66ca627f6\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\fd1465be54204eb4f96594d66ca627f6\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\9eea074cf652341d7c423b14c7cccd8e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\9eea074cf652341d7c423b14c7cccd8e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\223164d984eb07f0c5b83727b8e85906\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\223164d984eb07f0c5b83727b8e85906\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e09806fedcaf73ee0e22595e708735dc\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e09806fedcaf73ee0e22595e708735dc\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\409924cd016c6c5d22217b64333b2716\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\409924cd016c6c5d22217b64333b2716\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8f6f53577df462b883a0f29071a5c359\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8f6f53577df462b883a0f29071a5c359\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a814bd133b4039435948c0667ee48966\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a814bd133b4039435948c0667ee48966\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6151e126586f4a83f38912a51e2a7b82\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6151e126586f4a83f38912a51e2a7b82\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6f4cd621519e3e202420d4703573fbf0\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6f4cd621519e3e202420d4703573fbf0\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65a54277910d0fe1727441ce8390724a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65a54277910d0fe1727441ce8390724a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\662ad867cb6810c6726f1d9d83a7dc55\core-1.4.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.4.0-alpha01] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\662ad867cb6810c6726f1d9d83a7dc55\core-1.4.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0c4a303e4845c1d71d38de564f7d7815\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0c4a303e4845c1d71d38de564f7d7815\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\490bc29f7bf8bb8ad4dea60f819b0f75\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\490bc29f7bf8bb8ad4dea60f819b0f75\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e968a761718dd842e4b2f47e5238a64b\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\e968a761718dd842e4b2f47e5238a64b\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\b438d021203b1b2cd4bf7ee7b187a00e\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\b438d021203b1b2cd4bf7ee7b187a00e\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a8b5f2f918ccd5b61b38ba8ba7a0ef9d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a8b5f2f918ccd5b61b38ba8ba7a0ef9d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2b5a4cd18c0e85677b51f808520e4d53\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2b5a4cd18c0e85677b51f808520e4d53\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\c67b9bb136a4f6d2adb0b6b00aa57ae6\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\c67b9bb136a4f6d2adb0b6b00aa57ae6\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a25feba509b9cf92e2d524d5a5ea1774\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\a25feba509b9cf92e2d524d5a5ea1774\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\49555381fa7291ed6a909b646083fc2a\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\49555381fa7291ed6a909b646083fc2a\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bc3d08ee1c4710b4b0c8f772d2326f42\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\bc3d08ee1c4710b4b0c8f772d2326f42\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\61045485808293e5346b591a420d3959\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\61045485808293e5346b591a420d3959\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8fb84686ddcc564983df753d3c52ba17\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\8fb84686ddcc564983df753d3c52ba17\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\26edcac9172f08a708f7e4d675021c79\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\26edcac9172f08a708f7e4d675021c79\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\168d538504db09ffb1b51f9917597655\jetified-library-1.0.4\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\168d538504db09ffb1b51f9917597655\jetified-library-1.0.4\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\7dd3965c99a930a03ceb86bf7f0976c5\jetified-library-1.0.2\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\7dd3965c99a930a03ceb86bf7f0976c5\jetified-library-1.0.2\AndroidManifest.xml:3:5-72
 INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
@@ -354,6 +457,64 @@ ADDED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_video
 		ADDED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-37
 	android:name
 		ADDED from [:Aliyunplayer:player_demo] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\Aliyunplayer\player_demo\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-87
+activity#com.aliyun.svideo.vodupload.AliyunVodUploadMainActivity
+ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-28:20
+	android:screenOrientation
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-49
+	android:label
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-83
+activity#com.aliyun.svideo.vodupload.old.SVideoUploadActivity
+ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-32:52
+	android:screenOrientation
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-80
+activity#com.aliyun.svideo.vodupload.old.VodMultiUploadActivity
+ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-36:52
+	android:screenOrientation
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-53
+	android:name
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-82
+activity#com.aliyun.svideo.vodupload.MultiUploadActivity
+ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-40:52
+	android:screenOrientation
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-61
+	android:name
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-75
+activity#com.aliyun.svideo.vodupload.old.OSSMultiUploadActivity
+ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-44:52
+	android:screenOrientation
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-53
+	android:name
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-82
+activity#com.aliyun.svideo.vodupload.old.GetSTStokenActivity
+ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:45:9-47:56
+	android:label
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-53
+	android:name
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-79
+activity#com.aliyun.svideo.vodupload.GetVodAuthActivity
+ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-50:52
+	android:screenOrientation
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-74
+activity#com.aliyun.svideo.vodupload.ChooseFileActivity
+ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from [:AliyunVodUpload] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\AliyunVodUpload\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-74
 uses-feature#android.hardware.camera.autofocus
 ADDED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-70
 	android:name
@@ -364,101 +525,83 @@ ADDED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android
 		ADDED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-63
 	android:name
 		ADDED from [:zxing] C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\gradle-build\zxing\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-69
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2bf8f95ab94366698cc7bc04fd2283fd\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\2bf8f95ab94366698cc7bc04fd2283fd\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b7a0c702b4c2b55caf9a175f5b41a11\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b7a0c702b4c2b55caf9a175f5b41a11\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0be6f760b17962e3c54e3840352a8b37\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\0be6f760b17962e3c54e3840352a8b37\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\424879dfd41f76ca294f239aab60e839\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\424879dfd41f76ca294f239aab60e839\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ce685f01a8afe01af0e1ad3e8c9fc18b\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\ce685f01a8afe01af0e1ad3e8c9fc18b\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a11620b12081515a8d1e8971580439d\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\1a11620b12081515a8d1e8971580439d\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d84953c6b4260406967be204cc96b489\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\d84953c6b4260406967be204cc96b489\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b284f0fd717a97a52261154830a4728\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\6b284f0fd717a97a52261154830a4728\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\30c2c9865f53b929cd3822f62a67836d\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\30c2c9865f53b929cd3822f62a67836d\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+activity#com.zhihu.matisse.ui.MatisseActivity
+ADDED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:28:9-73
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\65648d1f2c95227ab193b3dd913500f8\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+		ADDED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:28:19-70
+activity#com.zhihu.matisse.internal.ui.AlbumPreviewActivity
+ADDED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:29:9-87
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:29:19-84
+activity#com.zhihu.matisse.internal.ui.SelectedPreviewActivity
+ADDED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:30:9-90
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.5.3-beta3] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\93b8eda1922352b3ad7bb46f6ef97bb4\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:30:19-87
 service#com.squareup.leakcanary.internal.HeapAnalyzerService
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:27:9-30:45
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:27:9-30:45
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:30:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:30:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:29:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:28:13-80
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:28:13-80
 service#com.squareup.leakcanary.DisplayLeakService
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:31:9-34:45
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:31:9-34:45
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:34:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:34:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:33:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:32:13-70
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:32:13-70
 provider#com.squareup.leakcanary.internal.LeakCanaryFileProvider
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:36:9-44:20
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:36:9-44:20
 	android:grantUriPermissions
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:40:13-47
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:40:13-47
 	android:authorities
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:38:13-88
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:38:13-88
 	android:exported
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:39:13-37
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:37:13-83
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:37:13-83
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:41:13-43:66
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:41:13-43:66
 	android:resource
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:43:17-63
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:43:17-63
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:42:17-67
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:42:17-67
 activity#com.squareup.leakcanary.internal.DisplayLeakActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:46:9-59:20
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:46:9-59:20
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:51:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:51:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:48:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:48:13-36
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:50:13-71
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:50:13-71
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:49:13-52
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:49:13-52
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:53:13-63
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:53:13-63
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:52:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:52:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:47:13-80
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:47:13-80
 activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:60:9-69:68
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:60:9-69:68
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:66:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:66:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:62:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:62:13-36
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:65:13-82
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:65:13-82
 	android:excludeFromRecents
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:63:13-46
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:63:13-46
 	android:roundIcon
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:67:13-57
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:67:13-57
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:64:13-52
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:64:13-52
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:69:13-65
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:69:13-65
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:68:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:68:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\22f6d2b166c4b3ff8ce96c8f3318bce1\leakcanary-android-1.6.1\AndroidManifest.xml:61:13-93
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80d16882df84533bd1e54bba9b1c4328\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80d16882df84533bd1e54bba9b1c4328\runtime-1.0.0\AndroidManifest.xml:27:13-44
-	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\80d16882df84533bd1e54bba9b1c4328\runtime-1.0.0\AndroidManifest.xml:26:13-58
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\linruo\.gradle\caches\transforms-2\files-2.1\f4b14e630f1d18a80c47194243562d79\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:61:13-93

@@ -11,10 +11,10 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +29,7 @@ import com.aliyun.alivcsolution.adapter.HomeViewPagerAdapter;
 import com.aliyun.alivcsolution.adapter.MultilayerGridAdapter;
 import com.aliyun.alivcsolution.model.ScenesModel;
 import com.aliyun.alivcsolution.utils.PermissionUtils;
+import com.aliyun.svideo.vodupload.AliyunVodUploadMainActivity;
 import com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity;
 
 /**
@@ -66,9 +67,9 @@ public class MainActivity extends AppCompatActivity {
      */
     private List<View> viewPagerList;
     /**
-     * module数据，播放器模块暂时只有一个
+     * module数据，播放器模块暂时只有两个
      */
-    private int[] modules = new int[]{R.string.solution_player};
+    private int[] modules = new int[]{R.string.solution_upload, R.string.solution_player};
 
     String[] permission = {
             Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -158,7 +159,14 @@ public class MainActivity extends AppCompatActivity {
     private void setDatas() {
         listDatas = new ArrayList<>();
         for (int i = 0; i < modules.length; i++) {
-            listDatas.add(new ScenesModel(getResources().getString(modules[i]), R.mipmap.icon_home_player));
+            switch (i) {
+                case 0:
+                    listDatas.add(new ScenesModel(getResources().getString(modules[i]), R.mipmap.icon_home_upload));
+                    break;
+                case 1:
+                    listDatas.add(new ScenesModel(getResources().getString(modules[i]), R.mipmap.icon_home_player));
+                    break;
+            }
         }
     }
 
@@ -176,11 +184,19 @@ public class MainActivity extends AppCompatActivity {
             gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    // 视频播放
-                    Intent intent = new Intent(MainActivity.this, AliyunPlayerSkinActivity.class);
-                    startActivity(intent);
-
-
+                    Intent intent;
+                    switch (position) {
+                        case 0:
+                            //视频上传
+                            intent = new Intent(MainActivity.this, AliyunVodUploadMainActivity.class);
+                            startActivity(intent);
+                            break;
+                        case 1:
+                            //视频播放
+                            intent = new Intent(MainActivity.this, AliyunPlayerSkinActivity.class);
+                            startActivity(intent);
+                            break;
+                    }
                     int pos = position + currentPage * mPageSize;
                     Log.i("TAG", "position的值为：" + position + "-->pos的值为：" + pos);
                     Toast.makeText(MainActivity.this, "你点击了 " + listDatas.get(pos).getName(), Toast.LENGTH_SHORT).show();

@@ -6,15 +6,15 @@ ext {
     externalAndroidBuildGradlePlugin = 'com.android.tools.build:gradle:3.6.3'
 
     //Android support Libraries
-    externalAndroidAppCompatV7 = 'com.android.support:appcompat-v7:26.1.0'
+    externalAndroidAppCompatV7 = 'androidx.appcompat:appcompat:1.0.0'
     externalAndroidAppCompatV7ToSnapSvideo = 'com.android.support:appcompat-v7:24.2.1'
 
     externalAndroidCardView = 'com.android.support:cardview-v7:21.0.+'
-    externalAndroidMultiDex = 'com.android.support:multidex:1.0.2'
-    externalAndroidRecyclerView = 'com.android.support:recyclerview-v7:26.1.0'
+    externalAndroidMultiDex = 'androidx.multidex:multidex:2.0.0'
+    externalAndroidRecyclerView = 'androidx.recyclerview:recyclerview:1.0.0'
     externalAndroidSupportV13 = 'com.android.support:support-v13:23.4.0'
-    externalAndroidSupportV4 = 'com.android.support:support-v4:26.1.0'
-    externalAndroidDesign = 'com.android.support:design:24.2.1'
+    externalAndroidSupportV4 = 'androidx.legacy:legacy-support-v4:1.0.0'
+    externalAndroidDesign = 'com.google.android.material:material:1.0.0'
 
     //Test related third party libraries
     externalAndroidTestEspressoCore = 'com.android.support.test.espresso:espresso-core:2.2.2'
@@ -40,7 +40,7 @@ ext {
 
     externalCrashReporter = 'com.taobao.android:crashreporter:3.0.4.1@aar'
     externalUtdid = 'com.taobao.android:utdid4all:1.1.5@jar'
-    externalTbest  = 'com.taobao.android:tbrest:1.0.0.23@aar'
+    externalTbest = 'com.taobao.android:tbrest:1.0.0.23@aar'
 
     //SDK Layer
     externalJSR305 = 'com.google.code.findbugs:jsr305:3.0.0'
@@ -50,9 +50,10 @@ ext {
     externalMqtt = 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
     externalHttpCore = 'org.apache.httpcomponents:httpcore:4.4.1'
     externalFaceUnity = 'com.faceunity:nama:6.0.0-lite'
+    externalMediaChoose = 'com.zhihu.android:matisse:0.5.3-beta3'
 
     //Aliyun SDK
-    externalAliyunVodUpload = 'com.aliyun.video.android:upload:1.5.3'
+    externalAliyunVodUpload = 'com.aliyun.video.android:upload:1.6.0'
     externalAlivcConan = 'com.alivc.conan:AlivcConan:0.9.5.1'
 
     externalAlivcFFmpeg = 'com.aliyun.video.android:AlivcSvideoFFmpeg:1.0.1'
@@ -62,11 +63,11 @@ ext {
     externalSvideosnap = 'com.aliyun.video.android:svideosnap:3.11.0'
 
     //Android SDK/Tools Version
-    externalCompileSdkVersion = 26
-    externalBuildToolsVersion = '26.0.2'
+    externalCompileSdkVersion = 29
+    externalBuildToolsVersion = '29.0.0'
     //The MinSdkVersion of the product you can add like this: externalSVideoMinSdkVersion 15
-    externalMinSdkVersion = 15
+    externalMinSdkVersion = 16
     externalPlayerMinSdkVersion = 16
     externalLiveMinSdkVersion = 18
-    externalTargetSdkVersion = 26
+    externalTargetSdkVersion = 29
 }

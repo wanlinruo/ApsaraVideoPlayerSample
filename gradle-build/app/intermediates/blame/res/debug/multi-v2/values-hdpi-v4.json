@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\linruo\\.gradle\\caches\\transforms-2\\files-2.1\\65648d1f2c95227ab193b3dd913500f8\\appcompat-v7-26.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\linruo\\.gradle\\caches\\transforms-2\\files-2.1\\bd9eaa2992ad422b7eac643b0aac27f7\\appcompat-1.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

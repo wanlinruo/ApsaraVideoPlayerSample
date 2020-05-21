@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
         android {
-            compileSdkVersion 26
-            buildToolsVersion '26.0.2'
+            compileSdkVersion externalCompileSdkVersion
+            buildToolsVersion externalBuildToolsVersion
             packagingOptions {
                 exclude('META-INF/LICENSE')
                 exclude('META-INF/beans.xml')
@@ -10,12 +10,12 @@ apply plugin: 'com.android.application'
         
             defaultConfig {
                 applicationId "com.aliyun.apsaravideo"
-                minSdkVersion 16
-                targetSdkVersion 26
+                minSdkVersion externalMinSdkVersion
+                targetSdkVersion externalTargetSdkVersion
                 versionCode 474
                 versionName "4.7.4"
         
-                testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+                testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
                 ndk {
                    abiFilters "armeabi-v7a","arm64-v8a"
                 }
@@ -62,12 +62,17 @@ apply plugin: 'com.android.application'
             lintOptions {
                 abortOnError false
             }
-        
+
+            packagingOptions {
+                //解决编译时More than one file was found with OS independent path 'META-INF/core_release.kotlin_module''这个错误
+                exclude 'META-INF/core_release.kotlin_module'
+            }
         }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project (':AliyunVideoCommon')
     implementation project (':Aliyunplayer:player_demo')
+    implementation project (':AliyunVodUpload')
     implementation externalAndroidAppCompatV7
     implementation externalAndroidSupportV4
     implementation externalAndroidRecyclerView

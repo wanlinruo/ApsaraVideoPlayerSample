@@ -5,9 +5,9 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="15"
+8        android:minSdkVersion="16"
 8-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="26" />
+9        android:targetSdkVersion="29" />
 9-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

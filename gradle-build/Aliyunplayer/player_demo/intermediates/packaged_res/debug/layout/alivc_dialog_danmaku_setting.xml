@@ -72,7 +72,7 @@
                 android:textColor="@color/alivc_common_font_white_light"
                 android:textSize="@dimen/alivc_common_font_12" />
 
-            <android.support.v7.widget.AppCompatSeekBar
+            <androidx.appcompat.widget.AppCompatSeekBar
                 android:id="@+id/seek_alpha"
                 style="@style/alivc_info_seekbar_blue_voice"
                 android:layout_width="wrap_content"
@@ -118,7 +118,7 @@
                 android:textColor="@color/alivc_common_font_white_light"
                 android:textSize="@dimen/alivc_common_font_12" />
 
-            <android.support.v7.widget.AppCompatSeekBar
+            <androidx.appcompat.widget.AppCompatSeekBar
                 android:id="@+id/seek_region"
                 style="@style/alivc_info_seekbar_blue_voice"
                 android:layout_width="wrap_content"
@@ -164,7 +164,7 @@
                 android:textColor="@color/alivc_common_font_white_light"
                 android:textSize="@dimen/alivc_common_font_12" />
 
-            <android.support.v7.widget.AppCompatSeekBar
+            <androidx.appcompat.widget.AppCompatSeekBar
                 android:id="@+id/seek_speed"
                 style="@style/alivc_info_seekbar_blue_voice"
                 android:layout_width="wrap_content"

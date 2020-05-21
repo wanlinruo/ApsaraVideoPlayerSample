@@ -1,9 +1,11 @@
 package com.aliyun.vodplayerview.activity;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentTransaction;
+
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -102,7 +104,7 @@ public class AliyunPlayerSettingActivity extends FragmentActivity implements
      */
     private void changeFragment(int index) {
         if (findViewById(R.id.player_settings_content) != null) {
-            android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             if (null != mCurrentFrgment) {
                 ft.hide(mCurrentFrgment);
             }

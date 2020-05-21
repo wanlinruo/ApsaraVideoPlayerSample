@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aliyun.svideo.vodupload.com.aliyun.sdk.android.vodupload_demo.MainActivity"
+    tools:showIn="@layout/multi_upload">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/alivc_upload_file"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_add"
+        android:id="@+id/btn_addFile"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_delete"
+        android:id="@+id/btn_deleteFile"
+        android:layout_alignBottom="@+id/btn_addFile"
+        android:layout_toRightOf="@+id/btn_addFile"
+        android:layout_alignTop="@+id/btn_addFile" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_cancel"
+        android:id="@+id/btn_cancelFile"
+        android:layout_toRightOf="@+id/btn_deleteFile"
+        android:layout_alignTop="@+id/btn_addFile" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_recover"
+        android:id="@+id/btn_resumeFile"
+        android:layout_toRightOf="@+id/btn_cancelFile"
+        android:layout_alignTop="@+id/btn_addFile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/alivc_upload_list_file"
+        android:id="@+id/textView2"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_below="@+id/btn_addFile" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_get_list"
+        android:id="@+id/btn_getList"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_clear_list"
+        android:id="@+id/btn_clearList"
+        android:layout_toRightOf="@+id/btn_getList"
+        android:layout_below="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/alivc_upload_manager"
+        android:id="@+id/textView3"
+        android:layout_alignLeft="@+id/btn_getList"
+        android:layout_alignStart="@+id/btn_getList"
+        android:layout_below="@+id/btn_getList" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_start"
+        android:id="@+id/btn_start"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_stop"
+        android:id="@+id/btn_stop"
+        android:layout_alignTop="@+id/btn_start"
+        android:layout_toRightOf="@+id/btn_start" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_pause"
+        android:id="@+id/btn_pause"
+        android:layout_alignTop="@+id/btn_start"
+        android:layout_toRightOf="@+id/btn_stop" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alivc_upload_recover"
+        android:id="@+id/btn_resume"
+        android:layout_alignTop="@+id/btn_pause"
+        android:layout_toRightOf="@+id/btn_pause"
+        android:layout_toEndOf="@+id/btn_pause" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/btn_start"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

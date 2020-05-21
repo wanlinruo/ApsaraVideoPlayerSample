@@ -4,20 +4,60 @@
         "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\layout\\alivc_home_girdview.xml"
     },
     {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_page_normal_indicator.png.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\page_normal_indicator.png"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_alivc_bg_home.png.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xxxhdpi\\alivc_bg_home.png"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\anim_splash_fade_out.xml.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\anim\\splash_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\layout_alivc_home_item_layout.xml.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\layout\\alivc_home_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_alivc_bg_splash.png.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xxxhdpi\\alivc_bg_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\layout_activity_solution_main.xml.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\layout\\activity_solution_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_download.png.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\icon_download.png"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_home_upload.png.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\icon_home_upload.png"
+    },
+    {
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_spalash_bg.png.flat",
         "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\spalash_bg.png"
     },
     {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\xml\\network_security_config.xml"
     },
     {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -32,40 +72,16 @@
         "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\anim\\splash_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_page_normal_indicator.png.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\page_normal_indicator.png"
-    },
-    {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\layout_layout_demo.xml.flat",
         "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\layout\\layout_demo.xml"
-    },
-    {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_alivc_bg_home.png.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xxxhdpi\\alivc_bg_home.png"
     },
     {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\drawable_alivc_home_item_selector.xml.flat",
         "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\drawable\\alivc_home_item_selector.xml"
     },
     {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\anim_splash_fade_out.xml.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\anim\\splash_fade_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\layout_alivc_home_item_layout.xml.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\layout\\alivc_home_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_page_selected_indicator.png.flat",
         "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\page_selected_indicator.png"
-    },
-    {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_alivc_bg_splash.png.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xxxhdpi\\alivc_bg_splash.png"
     },
     {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\drawable_alivc_lanch_loading.xml.flat",
@@ -74,14 +90,6 @@
     {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_home_player.png.flat",
         "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\icon_home_player.png"
-    },
-    {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\layout_activity_solution_main.xml.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\layout\\activity_solution_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_download.png.flat",
-        "source": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\app\\src\\main\\res\\mipmap-xhdpi\\icon_download.png"
     },
     {
         "merged": "C:\\Users\\linruo\\Desktop\\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\\demo\\ApsaraVideoPlayer\\gradle-build\\app\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_alivc_bg_splash.png.flat",

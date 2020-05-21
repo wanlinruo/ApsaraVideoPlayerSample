@@ -2,7 +2,7 @@ package com.aliyun.alivcsolution;
 
 import android.app.Application;
 import android.content.Context;
-import android.support.multidex.MultiDex;
+import androidx.multidex.MultiDex;
 
 
 

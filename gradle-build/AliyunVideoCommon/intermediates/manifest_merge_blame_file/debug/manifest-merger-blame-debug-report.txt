@@ -3,9 +3,9 @@
 3    package="com.aliyun.svideo.common" >
 4
 5    <uses-sdk
-6        android:minSdkVersion="15"
+6        android:minSdkVersion="16"
 6-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml
-7        android:targetSdkVersion="26" />
+7        android:targetSdkVersion="29" />
 7-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\AliyunVideoCommon\src\main\AndroidManifest.xml
 8    <!-- 网络/网络状态 -->
 9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Upload</string>
+    <string name="action_settings">Settings</string>
+    <string name="certificate_multi_upload">Upload to VOD (By Credential)</string>
+    <string name="sts_multi_upload">Upload to OSS (By STS)</string>
+    <string name="svideo_upload">Upload Short Videos (By STS)</string>
+    <string name="sts_description">短视频为了安全考虑使用阿里云STS做访问控制，RAM和STS是阿里云提供的权限管理系统。RAM主要的作用是控制账号系统的权限。通过使用RAM可以将在主账号的权限范围内创建子用户，给不同的子用户分配不同的权限从而达到授权管理的目的。STS是一个安全凭证（Token）的管理系统，用来授予临时的访问权限，这样就可以通过STS来完成对于临时用户的访问授权。详细参考STS介绍\nhttps://help.aliyun.com/document_detail/28756.html</string>
+    <string name="oss_multi_upload">OSS多文件上传示例</string>
+    <string name="alivc_upload_cancel">Cancel</string>
+    <string name="alivc_upload_continue">Continue</string>
+    <string name="alivc_upload_add">Add</string>
+    <string name="alivc_upload_delete">Delete</string>
+    <string name="alivc_upload_start">Start</string>
+    <string name="alivc_upload_stop">Stop</string>
+    <string name="alivc_upload_pause">Pause</string>
+    <string name="alivc_upload_recover">Recover</string>
+    <string name="alivc_upload_title">Title</string>
+    <string name="alivc_upload_description">Description</string>
+    <string name="alivc_upload_tag">Tag</string>
+    <string name="alivc_upload_file">Files</string>
+    <string name="alivc_upload_list_file">Lists</string>
+    <string name="alivc_upload_manager">Uploads</string>
+    <string name="alivc_upload_get_vod_credential">Get VOD Credential</string>
+    <string name="alivc_upload_get_vod_sts">Get STS Token</string>
+
+    <string name="alivc_upload_get_list">Get</string>
+    <string name="alivc_upload_clear_list">Clear</string>
+</resources>
