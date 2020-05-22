@@ -25,11 +25,21 @@ import com.alibaba.sdk.android.vod.upload.common.UploadStateType;
 import com.alibaba.sdk.android.vod.upload.model.UploadFileInfo;
 import com.alibaba.sdk.android.vod.upload.model.VodInfo;
 
+import org.jetbrains.annotations.NotNull;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Response;
 
 /**
  * 多文件上传示例：可支持OSS上传和点播上传.
@@ -44,8 +54,6 @@ import java.util.Random;
 public class MultiUploadActivity extends AppCompatActivity {
 
     public static final int RQ_CHOOSE_MEDIA = 1000;
-
-    private String filePathPrefix;
 
     private String uploadAuth;
     private String uploadAddress;
@@ -89,14 +97,6 @@ public class MultiUploadActivity extends AppCompatActivity {
                 vodUploadAdapter.notifyDataSetChanged();
             }
         };
-
-        //初始化默认文件存放目录
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            filePathPrefix = getExternalFilesDir("").getAbsolutePath();
-        } else {
-            filePathPrefix = "/sdcard/";
-        }
-
 
         uploader = new VODUploadClientImpl(getApplicationContext());
         uploader.setRegion(VOD_REGION);
@@ -299,9 +299,18 @@ public class MultiUploadActivity extends AppCompatActivity {
                 }
             }
 
-            //TODO 保存视频上传信息接口
+            //保存视频上传信息接口
+            HttpUtils.post("http://192.168.97.6:9005//content/vodInfo/saveUpload", videoId, new Callback() {
+                @Override
+                public void onFailure(@NotNull Call call, @NotNull IOException e) {
+                    OSSLog.logError("HttpUtils-onFailure ------------------ " + e);
+                }
 
-
+                @Override
+                public void onResponse(@NotNull Call call, @NotNull Response response) throws IOException {
+                    OSSLog.logDebug("HttpUtils-onResponse ------------------ " + response.toString());
+                }
+            });
         }
 
         public void onUploadFailed(UploadFileInfo info, String code, String message) {

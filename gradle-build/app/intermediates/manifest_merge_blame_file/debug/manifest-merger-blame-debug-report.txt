@@ -8,7 +8,7 @@
 8    <uses-sdk
 9        android:minSdkVersion="16"
 9-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
-10        android:targetSdkVersion="29" />
+10        android:targetSdkVersion="28" />
 10-->C:\Users\linruo\Desktop\ApsaraVideo_videoPlay_v4.7.4_Android_20200316\demo\ApsaraVideoPlayer\app\src\main\AndroidManifest.xml
 11
 12    <uses-permission android:name="android.permission.INTERNET" />

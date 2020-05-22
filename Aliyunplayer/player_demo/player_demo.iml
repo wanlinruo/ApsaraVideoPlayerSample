@@ -107,7 +107,7 @@
     <content url="file://$MODULE_DIR$/../../gradle-build/Aliyunplayer/player_demo/generated/source/buildConfig/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../gradle-build/Aliyunplayer/player_demo/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0@jar" level="project" />

@@ -63,11 +63,11 @@ ext {
     externalSvideosnap = 'com.aliyun.video.android:svideosnap:3.11.0'
 
     //Android SDK/Tools Version
-    externalCompileSdkVersion = 29
-    externalBuildToolsVersion = '29.0.0'
+    externalCompileSdkVersion = 28
+    externalBuildToolsVersion = '28.0.0'
     //The MinSdkVersion of the product you can add like this: externalSVideoMinSdkVersion 15
     externalMinSdkVersion = 16
     externalPlayerMinSdkVersion = 16
     externalLiveMinSdkVersion = 18
-    externalTargetSdkVersion = 29
+    externalTargetSdkVersion = 28
 }
